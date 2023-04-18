@@ -1,0 +1,42 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Regional average climate observations UK annual mean temperature 2022",
+    "creator": "https://www.gov.uk/government/organisations/met-office",
+    "summary": "Data for the Regional average mean temperature with trends 1884 - 2022",
+    "description": "",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "temperature",
+        "temperature-trend",
+        "annual-mean-temperature",
+        "annual-mean-temperature-trend"
+    ],
+    "publisher": "https://www.gov.uk/government/organisations/met-office",
+    "themes": [
+        "https://www.ons.gov.uk/economy/environmentalaccounts"
+    ],
+    "dataset_issued": "2023-04-01",
+    "columns": {
+        "Period": {
+            "from_template": "year"
+        },
+        "Geography": {
+            "type": "dimension",
+            "from_existing": "http://purl.org/linked-data/sdmx/2009/dimension#refArea",
+             "label": "Statistical Geography",
+             "code_list": false,
+             "cell_uri_template": "http://statistics.data.gov.uk/id/statistical-geography/{+geography}"      
+        },
+        "Measure": {
+            "type": "measures"
+        },
+        "Observation": {
+            "type": "observations",
+            "data_type": "float",
+            "unit": {
+                "label": "Degrees centigrade",
+                "from_existing": "http://qudt.org/vocab/unit/DEG_C"
+            }
+        }
+    }
+}
