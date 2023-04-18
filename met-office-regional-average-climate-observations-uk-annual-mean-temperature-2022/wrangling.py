@@ -9,7 +9,7 @@ from pathlib import Path
 @click.option("--output", default=Path("./output.csv"), type=click.Path(path_type=Path))
 def wrangle(input: Path(), output: Path()) -> None:
 
-    df = pd.read_csv("regional-average-climate-observations-uk-annual-mean-temperature.csv")
+    df = pd.read_csv("raw.csv")
 
     df['Measure Type'] = df.apply(
     lambda x: 'Annual Mean Temperature (Trend)' if 'trend' in x['Geography'] 
