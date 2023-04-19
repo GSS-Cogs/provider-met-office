@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+    <h3>CSV-Ws generated are as below. The latest commit id is 9cfc8e4f53247c55c6f6c20a8774d9553087912b.</h3>
+    <div id="files-container"></div>
+    <script type="text/javascript">
+        var html_str = "<ul>";
+        var files = "|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/year.csv|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/geography.table.json|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022.csv-metadata.json|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022.csv|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/year.csv-metadata.json|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/geography.csv|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022.csv-metadata.json_inspect_output.txt|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/geography.csv-metadata.json_inspect_output.txt|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/year.table.json|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/year.csv-metadata.json_inspect_output.txt|||out/regional-average-climate-observations-uk-annual-mean-temperature-2022/regional-average-climate-observations-uk-annual-mean-temperature-2022/geography.csv-metadata.json".split('|||');
+        files.shift()
+        files.sort()
+        files.forEach(function(file) {
+        file = file.replace("./","")
+        link = "https://GSS-Cogs.github.io/provider-met-office/"+file
+        html_str += "<li>"+"<a href='"+ link + "'>"+file+"</a></li>";
+        });
+        html_str += "</ul>";
+        document.getElementById("files-container").innerHTML = html_str;
+    </script>
+    </body>
+</html>
