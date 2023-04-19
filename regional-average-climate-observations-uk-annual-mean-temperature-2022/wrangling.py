@@ -11,17 +11,23 @@ def wrangle(input: Path(), output: Path()) -> None:
 
     df = pd.read_csv("raw.csv")
 
-    df['Measure Type'] = df.apply(
+    df['Measure'] = df.apply(
     lambda x: 'Annual Mean Temperature (Trend)' if 'trend' in x['Geography'] 
                 else 'Annual Mean Temperature', axis=1)
 
-    df['Geography'] = df['Geography'].apply(lambda x: 'K02000001' if 'uk' in x
-                                        else ('N92000002' if 'northern-ireland' in x
-                                              else ('E92000001' if 'england' in x
-                                                    else ('S92000003' if 'scotland' in x
-                                                          else ('W92000004' if 'wales' in x else x)))))
+    # df['Geography'] = df['Geography'].apply(lambda x: 'K02000001' if 'uk' in x
+    #                                     else ('N92000002' if 'northern-ireland' in x
+    #                                           else ('E92000001' if 'england' in x
+    #                                                 else ('S92000003' if 'scotland' in x
+    #                                                       else ('W92000004' if 'wales' in x else x)))))
     
-    df = df.rename(columns={'Year': 'Period', 'Measure Type': 'Measure', 'Value': 'Observation'})
+    df['Geography'] = df['Geography'].apply(lambda x: 'United Kingdom' if 'uk' in x
+                                        else ('Northern Ireland' if 'northern-ireland' in x
+                                              else ('England' if 'england' in x
+                                                    else ('Scotland' if 'scotland' in x
+                                                          else ('Wales' if 'wales' in x else x)))))
+    
+    df = df.rename(columns={'Year': 'Period', 'Value': 'Observation'})
 
     df = df[['Period', 'Geography', 'Measure', 'Observation']] 
 
