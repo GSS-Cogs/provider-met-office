@@ -3,13 +3,13 @@
     "title": "Regional average climate observations UK annual mean temperature 2022",
     "creator": "https://www.gov.uk/government/organisations/met-office",
     "summary": "Data for the Regional average mean temperature with trends 1884 - 2022",
-    "description": "",
+    "description": "Data for the Regional average mean temperature with trends 1884 - 2022",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
+        "climate",
         "temperature",
         "temperature-trend",
-        "annual-mean-temperature",
-        "annual-mean-temperature-trend"
+        "annual-mean-temperature"
     ],
     "publisher": "https://www.gov.uk/government/organisations/met-office",
     "themes": [
@@ -68,5 +68,6 @@
                 "from_existing": "http://qudt.org/vocab/unit/DEG_C"
             }
         }
-    }
+    },
+    "csvcubed_uri_style": "WithoutFileExtensions"
 }
