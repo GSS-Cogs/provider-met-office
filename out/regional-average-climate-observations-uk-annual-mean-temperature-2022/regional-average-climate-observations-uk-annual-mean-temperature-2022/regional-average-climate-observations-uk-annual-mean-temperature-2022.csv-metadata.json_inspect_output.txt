@@ -14,13 +14,13 @@
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
         - Keywords: 
 		-- annual-mean-temperature
-		-- temperature
-		-- annual-mean-temperature-trend
 		-- temperature-trend
+		-- climate
+		-- temperature
         - Contact Point: None
         - Identifier: Regional average climate observations UK annual mean temperature 2022
         - Comment: Data for the Regional average mean temperature with trends 1884 - 2022
-        - Description: None
+        - Description: Data for the Regional average mean temperature with trends 1884 - 2022
         
 
  - The data cube has the following column component information: 
