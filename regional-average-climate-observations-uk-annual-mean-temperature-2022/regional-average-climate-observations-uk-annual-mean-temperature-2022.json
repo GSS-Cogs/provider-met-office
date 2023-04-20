@@ -22,7 +22,7 @@
         },
         "Geography": {
             "type": "dimension",
-            "label": "Geography",
+            "label": "Statistical Geography",
             "from_existing": "http://purl.org/linked-data/sdmx/2009/dimension#refArea",
             "code_list": {
                 "title": "Geography",
