@@ -13,9 +13,9 @@
         - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
         - Keywords: 
+		-- temperature-trend
 		-- climate
 		-- temperature
-		-- temperature-trend
 		-- annual-mean-temperature
         - Contact Point: None
         - Identifier: Regional average climate observations UK annual mean temperature 2022
@@ -26,11 +26,11 @@
  - The data cube has the following column component information: 
     - Dataset Label: Regional average climate observations UK annual mean temperature 2022
     - Columns: 
-          Title         Type  Required                                                                                  Property URL Observations Column Titles
-         Period    Dimension      True      regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year                           
-      Geography    Dimension      True regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography                           
-        Measure     Measures      True                                                  http://purl.org/linked-data/cube#measureType                Observation
-    Observation Observations      True  regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/{+measure}                           
+          Title         Type  Required                                                                                              Property URL Observations Column Titles
+         Period    Dimension      True                  regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year                           
+      Geography    Dimension      True regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/statistical-geography                           
+        Measure     Measures      True                                                              http://purl.org/linked-data/cube#measureType                Observation
+    Observation Observations      True              regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/{+measure}                           
     - Columns where suppress output is true: None
 
 - The data cube has the following code list information:
