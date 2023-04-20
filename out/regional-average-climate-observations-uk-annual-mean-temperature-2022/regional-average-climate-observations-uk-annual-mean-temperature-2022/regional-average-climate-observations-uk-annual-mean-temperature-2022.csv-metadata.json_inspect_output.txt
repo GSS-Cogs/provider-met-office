@@ -13,10 +13,10 @@
         - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
         - Keywords: 
-		-- annual-mean-temperature
-		-- temperature-trend
 		-- climate
 		-- temperature
+		-- temperature-trend
+		-- annual-mean-temperature
         - Contact Point: None
         - Identifier: Regional average climate observations UK annual mean temperature 2022
         - Comment: Data for the Regional average mean temperature with trends 1884 - 2022
@@ -72,6 +72,6 @@ geography.csv#code-list       Geography       Geography
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                       Measure               Unit  Count
-      annual-mean-temperature degrees centigrade    695
-annual-mean-temperature-trend degrees centigrade    695
+      annual-mean-temperature Degrees Centigrade    695
+annual-mean-temperature-trend Degrees Centigrade    695
         

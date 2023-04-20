@@ -90,77 +90,105 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year",
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/measure-type",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.3.6"
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/annual-mean-temperature",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 3
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/annual-mean-temperature"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/measure-type"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/unit"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/year"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/geography"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/annual-mean-temperature-trend"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature-trend"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year"
                 }
             ]
         },
         {
             "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/unit",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -184,210 +212,32 @@
             ]
         },
         {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Annual Mean Temperature"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#float"
-                }
-            ]
-        },
-        {
             "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#class/geography",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Class",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/annual-mean-temperature-trend"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/year"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/unit"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/measure-type"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/geography"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/annual-mean-temperature"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature-trend"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year"
-                }
             ]
         },
         {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "geography.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#class/geography"
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature-trend",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Annual Mean Temperature (Trend)"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#float"
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/annual-mean-temperature-trend",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature-trend"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature-trend"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#class/year",
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.3.6"
+                }
             ]
         },
         {
             "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/ns/dcat#Resource",
                 "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Dataset"
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -457,11 +307,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "temperature-trend"
+                    "@value": "climate"
                 },
                 {
                     "@language": "en",
-                    "@value": "climate"
+                    "@value": "temperature-trend"
                 },
                 {
                     "@language": "en",
@@ -480,33 +330,188 @@
             ]
         },
         {
-            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/measure-type",
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Annual Mean Temperature"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#float"
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/year",
+            "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 5
+                    "@value": 1
                 }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/annual-mean-temperature-trend",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature-trend"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature-trend"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#component/annual-mean-temperature",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#measure/annual-mean-temperature-trend",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Annual Mean Temperature (Trend)"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#float"
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dimension/geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "geography.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#class/geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dependency/year",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -522,8 +527,8 @@
         {
             "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#dependency/geography",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -539,9 +544,9 @@
         {
             "@id": "regional-average-climate-observations-uk-annual-mean-temperature-2022.csv#unit/degrees-centigrade",
             "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://qudt.org/schema/qudt/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
@@ -567,7 +572,7 @@
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "degrees centigrade"
+                    "@value": "Degrees Centigrade"
                 }
             ]
         }
