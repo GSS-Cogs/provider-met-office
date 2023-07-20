@@ -1,0 +1,41 @@
+Year,Geography,Measure,Value
+2019,UK,Mean,9.39
+2020,UK,Mean,9.61
+2021,UK,Mean,9.28
+2022,UK,Mean,10.03
+2019,England,Mean,10.23
+2020,England,Mean,10.57
+2021,England,Mean,10.07
+2022,England,Mean,10.94
+2019,Wales,Mean,9.66
+2020,Wales,Mean,9.91
+2021,Wales,Mean,9.61
+2022,Wales,Mean,10.23
+2019,Scotland,Mean,7.91
+2020,Scotland,Mean,7.98
+2021,Scotland,Mean,7.83
+2022,Scotland,Mean,8.5
+2019,Northern Ireland,Mean,9.37
+2020,Northern Ireland,Mean,9.29
+2021,Northern Ireland,Mean,9.58
+2022,Northern Ireland,Mean,9.85
+2019,UK,Trend,9.58
+2020,UK,Trend,9.58
+2021,UK,Trend,9.58
+2022,UK,Trend,9.58
+2019,England,Trend,10.45
+2020,England,Trend,10.45
+2021,England,Trend,10.45
+2022,England,Trend,10.45
+2019,Wales,Trend,9.85
+2020,Wales,Trend,9.85
+2021,Wales,Trend,9.85
+2022,Wales,Trend,9.86
+2019,Scotland,Trend,8.06
+2020,Scotland,Trend,8.06
+2021,Scotland,Trend,8.05
+2022,Scotland,Trend,8.06
+2019,Northern Ireland,Trend,9.52
+2020,Northern Ireland,Trend,9.52
+2021,Northern Ireland,Trend,9.52
+2022,Northern Ireland,Trend,9.52
