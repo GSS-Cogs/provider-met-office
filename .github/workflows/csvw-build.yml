@@ -11,7 +11,7 @@ jobs:
         name: Generate CSV-W from csv upload # generate_csvw_from_csv_upload job
         runs-on: ubuntu-latest
         steps:
-        - name: csv-to-csvw action # csv-to-csvw action step
+          - name: csv-to-csvw action # csv-to-csvw action step
             # csv-to-csvw action path. The latest version is always available at https://github.com/marketplace/actions/csv-to-csvw-action
             uses: GSS-Cogs/csv-to-csvw-action@v0.0.32
             # Configurations
