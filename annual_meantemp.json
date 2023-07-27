@@ -38,10 +38,10 @@
         },
         "Value": {
             "type": "observations",
+            "data_type": "decimal",
             "unit": {
                 "from_existing": "http://qudt.org/vocab/unit/DEG_C"
             }
         }
     }
-    
 }
