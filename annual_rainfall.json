@@ -1,0 +1,48 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Regional average climate observations UK Annual Rainfall",
+    "summary": "Climate observations that have been averaged across UK geographic areas",
+    "description": "Derived from https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb",
+    "dataset_version": "v1.1.0.0",
+    "publisher": "https://www.gov.uk/government/organisations/met-office",
+    "creator": "https://www.gov.uk/government/organisations/met-office",
+    "themes": "http://gss-data.org.uk/def/gdp#climate-change",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "climate",
+        "rainfall",
+        "precipitation"
+    ],
+    "columns": {
+        "Year": {
+            "from_template": "year"
+        },
+        "Geography": {
+            "label": "Met Office Geography",
+            "from_existing": "http://purl.org/linked-data/sdmx/2009/dimension#refArea",
+            "type": "dimension"
+        },
+        "Measure": {
+            "type": "measures",
+            "values": [
+                {
+                    "label": "Rainfall Accumulation",
+                    "description": "The annual rainfall accumulation, averaged out for the reporting period",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#length"
+                },
+                {
+                    "label": "Rainfall Trend",
+                    "description": "Climatological trend calculated using triangular window method for each geographical area",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#length"
+                }
+            ]
+        },
+        "Value": {
+            "type": "observations",
+            "unit": {
+                "label": "Millimetre",
+                "from_existing": "http://qudt.org/vocab/unit/MilliM"
+            }
+        }
+    }
+}
