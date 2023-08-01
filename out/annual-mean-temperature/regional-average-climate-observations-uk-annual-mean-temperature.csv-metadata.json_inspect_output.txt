@@ -1,0 +1,76 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: Regional average climate observations UK Annual Mean Temperature
+          - Label: Regional average climate observations UK Annual Mean Temperature
+          - Issued: 2023-07-27T15:28:19.539999
+          - Modified: 2023-07-27T15:28:19.539999
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/met-office
+          - Publisher: https://www.gov.uk/government/organisations/met-office
+          - Landing Pages: None
+          - Themes: 
+		-- http://gss-data.org.uk/def/gdp#climate-change
+          - Keywords: 
+		-- climate
+		-- temperature
+          - Contact Point: None
+          - Identifier: Regional average climate observations UK Annual Mean Temperature
+          - Comment: Climate observations that have been averaged across UK geographic areas
+          - Description: Derived from https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Regional average climate observations UK Annual Mean Temperature
+    - Columns: 
+        Title         Type  Required                                                                                        Property URL Observations Column Titles
+         Year    Dimension      True                 regional-average-climate-observations-uk-annual-mean-temperature.csv#dimension/year                           
+    Geography    Dimension      True regional-average-climate-observations-uk-annual-mean-temperature.csv#dimension/met-office-geography                           
+      Measure     Measures      True                                                        http://purl.org/linked-data/cube#measureType                      Value
+        Value Observations      True             regional-average-climate-observations-uk-annual-mean-temperature.csv#measure/{+measure}                           
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 2
+        - Code Lists:
+                         Code List      Code List Label Columns Used In
+met-office-geography.csv#code-list Met Office Geography       Geography
+                year.csv#code-list                 Year            Year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 40
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+ Year Geography Measure  Value
+ 2019 k02000001    mean   9.39
+ 2020 k02000001    mean   9.61
+ 2021 k02000001    mean   9.28
+ 2022 k02000001    mean  10.03
+ 2019 e92000001    mean  10.23
+ 2020 e92000001    mean  10.57
+ 2021 e92000001    mean  10.07
+ 2022 e92000001    mean  10.94
+ 2019 w92000004    mean   9.66
+ 2020 w92000004    mean   9.91
+        - Last 10 Observations: 
+ Year Geography Measure  Value
+ 2021 w92000004   trend   9.85
+ 2022 w92000004   trend   9.86
+ 2019 s92000003   trend   8.06
+ 2020 s92000003   trend   8.06
+ 2021 s92000003   trend   8.05
+ 2022 s92000003   trend   8.06
+ 2019 n92000002   trend   9.52
+ 2020 n92000002   trend   9.52
+ 2021 n92000002   trend   9.52
+ 2022 n92000002   trend   9.52
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+Measure            Unit  Count
+   mean Degrees Celsius     20
+  trend Degrees Celsius     20
+        
