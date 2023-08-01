@@ -1,0 +1,77 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: Regional average climate observations UK Growing Season Length
+          - Label: Regional average climate observations UK Growing Season Length
+          - Issued: 2023-08-01T15:40:01.469636
+          - Modified: 2023-08-01T15:40:01.469636
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/met-office
+          - Publisher: https://www.gov.uk/government/organisations/met-office
+          - Landing Pages: None
+          - Themes: 
+		-- http://gss-data.org.uk/def/gdp#climate-change
+          - Keywords: 
+		-- growing season
+		-- climate
+		-- temperature
+          - Contact Point: None
+          - Identifier: Regional average climate observations UK Growing Season Length
+          - Comment: Climate observations that have been averaged across UK geographic areas
+          - Description: Derived from https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Regional average climate observations UK Growing Season Length
+    - Columns: 
+        Title         Type  Required                                                                                      Property URL Observations Column Titles
+         Year    Dimension      True                 regional-average-climate-observations-uk-growing-season-length.csv#dimension/year                           
+    Geography    Dimension      True regional-average-climate-observations-uk-growing-season-length.csv#dimension/met-office-geography                           
+      Measure     Measures      True                                                      http://purl.org/linked-data/cube#measureType                      Value
+        Value Observations      True             regional-average-climate-observations-uk-growing-season-length.csv#measure/{+measure}                           
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 2
+        - Code Lists:
+                         Code List      Code List Label Columns Used In
+met-office-geography.csv#code-list Met Office Geography       Geography
+                year.csv#code-list                 Year            Year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 40
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+ Year Geography                       Measure  Value
+ 2019 k02000001 number-of-growing-season-days  295.8
+ 2020 k02000001 number-of-growing-season-days  319.0
+ 2021 k02000001 number-of-growing-season-days  286.7
+ 2022 k02000001 number-of-growing-season-days  293.2
+ 2019 e92000001 number-of-growing-season-days  307.9
+ 2020 e92000001 number-of-growing-season-days  330.9
+ 2021 e92000001 number-of-growing-season-days  296.6
+ 2022 e92000001 number-of-growing-season-days  296.8
+ 2019 w92000004 number-of-growing-season-days  308.5
+ 2020 w92000004 number-of-growing-season-days  322.7
+        - Last 10 Observations: 
+ Year Geography                  Measure  Value
+ 2021 w92000004 growing-season-day-trend  306.6
+ 2022 w92000004 growing-season-day-trend  306.6
+ 2019 s92000003 growing-season-day-trend  278.9
+ 2020 s92000003 growing-season-day-trend  279.1
+ 2021 s92000003 growing-season-day-trend  278.9
+ 2022 s92000003 growing-season-day-trend  279.0
+ 2019 n92000002 growing-season-day-trend  308.3
+ 2020 n92000002 growing-season-day-trend  308.3
+ 2021 n92000002 growing-season-day-trend  308.3
+ 2022 n92000002 growing-season-day-trend  308.3
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                      Measure Unit  Count
+     growing-season-day-trend  Day     20
+number-of-growing-season-days  Day     20
+        
