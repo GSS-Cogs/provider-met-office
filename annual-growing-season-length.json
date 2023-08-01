@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "Regional average climate observations UK Annual Mean Temperature",
+    "title": "Regional average climate observations UK Growing Season Length",
     "summary": "Climate observations that have been averaged across UK geographic areas",
     "description": "Derived from https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb",
     "dataset_version": "v1.1.0.0",
@@ -10,6 +10,7 @@
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
         "climate",
+        "growing season",
         "temperature"
     ],
     "columns": {
@@ -25,14 +26,14 @@
             "type": "measures",
             "values": [
                 {
-                    "label": "Mean Temperature",
-                    "description": "The annual mean temperature, averaged out for the reporting period",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#temperature"
+                    "label": "Number of Growing Season Days",
+                    "description": "The annual number of days of the thermal growing season",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#elapsed-time"
                 },
                 {
-                    "label": "Temperature Trend",
+                    "label": "Growing Season Day Trend",
                     "description": "Climatological trend calculated using triangular window method for each geographical area",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#temperature"
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#elapsed-time"
                 }
             ]
         },
@@ -40,8 +41,8 @@
             "type": "observations",
             "data_type": "decimal",
             "unit": {
-                "label": "Degrees Celsius",
-                "from_existing": "http://qudt.org/vocab/unit/DEG_C"
+                "label": "Day",
+                "from_existing": "http://qudt.org/vocab/unit/DAY"
             }
         }
     }
