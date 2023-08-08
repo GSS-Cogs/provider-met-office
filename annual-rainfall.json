@@ -18,9 +18,8 @@
             "from_template": "year"
         },
         "Geography": {
-            "label": "Met Office Geography",
-            "from_existing": "http://purl.org/linked-data/sdmx/2009/dimension#refArea",
-            "type": "dimension"
+            "type": "dimension",
+            "from_template": "statistical-geography"
         },
         "Measure": {
             "type": "measures",
