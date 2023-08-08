@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Regional average climate observations UK Annual Mean Temperature
           - Label: Regional average climate observations UK Annual Mean Temperature
-          - Issued: 2023-08-01T15:40:13.879866
-          - Modified: 2023-08-01T15:40:13.879866
+          - Issued: 2023-08-08T14:50:55.378936
+          - Modified: 2023-08-08T14:50:55.378936
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/met-office
           - Publisher: https://www.gov.uk/government/organisations/met-office
@@ -14,8 +14,8 @@
           - Themes: 
 		-- http://gss-data.org.uk/def/gdp#climate-change
           - Keywords: 
-		-- climate
 		-- temperature
+		-- climate
           - Contact Point: None
           - Identifier: Regional average climate observations UK Annual Mean Temperature
           - Comment: Climate observations that have been averaged across UK geographic areas
@@ -25,47 +25,46 @@
  - The data cube has the following column component information: 
     - Dataset Label: Regional average climate observations UK Annual Mean Temperature
     - Columns: 
-        Title         Type  Required                                                                                        Property URL Observations Column Titles
-         Year    Dimension      True                 regional-average-climate-observations-uk-annual-mean-temperature.csv#dimension/year                           
-    Geography    Dimension      True regional-average-climate-observations-uk-annual-mean-temperature.csv#dimension/met-office-geography                           
-      Measure     Measures      True                                                        http://purl.org/linked-data/cube#measureType                      Value
-        Value Observations      True             regional-average-climate-observations-uk-annual-mean-temperature.csv#measure/{+measure}                           
+        Title         Type  Required                                                                                         Property URL Observations Column Titles
+         Year    Dimension      True                  regional-average-climate-observations-uk-annual-mean-temperature.csv#dimension/year                           
+    Geography    Dimension      True regional-average-climate-observations-uk-annual-mean-temperature.csv#dimension/statistical-geography                           
+      Measure     Measures      True                                                         http://purl.org/linked-data/cube#measureType                      Value
+        Value Observations      True              regional-average-climate-observations-uk-annual-mean-temperature.csv#measure/{+measure}                           
     - Columns where suppress output is true: None
 
 - The data cube has the following code list information:
-        - Number of Code Lists: 2
+        - Number of Code Lists: 1
         - Code Lists:
-                         Code List      Code List Label Columns Used In
-met-office-geography.csv#code-list Met Office Geography       Geography
-                year.csv#code-list                 Year            Year
+         Code List Code List Label Columns Used In
+year.csv#code-list            Year            Year
 
 - The data cube has the following dataset information:
         - Number of Observations: 40
         - Number of Duplicates: 0
         - First 10 Observations: 
  Year Geography          Measure  Value
- 2019 k02000001 mean-temperature   9.39
- 2020 k02000001 mean-temperature   9.61
- 2021 k02000001 mean-temperature   9.28
- 2022 k02000001 mean-temperature  10.03
- 2019 e92000001 mean-temperature  10.23
- 2020 e92000001 mean-temperature  10.57
- 2021 e92000001 mean-temperature  10.07
- 2022 e92000001 mean-temperature  10.94
- 2019 w92000004 mean-temperature   9.66
- 2020 w92000004 mean-temperature   9.91
+ 2019 K02000001 mean-temperature   9.39
+ 2020 K02000001 mean-temperature   9.61
+ 2021 K02000001 mean-temperature   9.28
+ 2022 K02000001 mean-temperature  10.03
+ 2019 E92000001 mean-temperature  10.23
+ 2020 E92000001 mean-temperature  10.57
+ 2021 E92000001 mean-temperature  10.07
+ 2022 E92000001 mean-temperature  10.94
+ 2019 W92000004 mean-temperature   9.66
+ 2020 W92000004 mean-temperature   9.91
         - Last 10 Observations: 
  Year Geography           Measure  Value
- 2021 w92000004 temperature-trend   9.85
- 2022 w92000004 temperature-trend   9.86
- 2019 s92000003 temperature-trend   8.06
- 2020 s92000003 temperature-trend   8.06
- 2021 s92000003 temperature-trend   8.05
- 2022 s92000003 temperature-trend   8.06
- 2019 n92000002 temperature-trend   9.52
- 2020 n92000002 temperature-trend   9.52
- 2021 n92000002 temperature-trend   9.52
- 2022 n92000002 temperature-trend   9.52
+ 2021 W92000004 temperature-trend   9.85
+ 2022 W92000004 temperature-trend   9.86
+ 2019 S92000003 temperature-trend   8.06
+ 2020 S92000003 temperature-trend   8.06
+ 2021 S92000003 temperature-trend   8.05
+ 2022 S92000003 temperature-trend   8.06
+ 2019 N92000002 temperature-trend   9.52
+ 2020 N92000002 temperature-trend   9.52
+ 2021 N92000002 temperature-trend   9.52
+ 2022 N92000002 temperature-trend   9.52
         
 
 - The data cube has the following value counts:

@@ -16,8 +16,8 @@
                     {
                         "titles": "Geography",
                         "name": "geography",
-                        "propertyUrl": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/met-office-geography",
-                        "valueUrl": "met-office-geography.csv#{+geography}",
+                        "propertyUrl": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/statistical-geography",
+                        "valueUrl": "http://statistics.data.gov.uk/id/statistical-geography/{+geography}",
                         "required": true
                     },
                     {
@@ -60,13 +60,6 @@
                             "resource": "year.csv",
                             "columnReference": "uri_identifier"
                         }
-                    },
-                    {
-                        "columnReference": "geography",
-                        "reference": {
-                            "resource": "met-office-geography.csv",
-                            "columnReference": "uri_identifier"
-                        }
                     }
                 ],
                 "primaryKey": [
@@ -81,101 +74,17 @@
             "url": "year.csv",
             "tableSchema": "year.table.json",
             "suppressOutput": true
-        },
-        {
-            "url": "met-office-geography.csv",
-            "tableSchema": "met-office-geography.table.json",
-            "suppressOutput": true
         }
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/year",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/met-office-geography"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/unit"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/rainfall-accumulation"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/measure-type"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/rainfall-trend"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-accumulation"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/year"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/met-office-geography"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-trend"
-                }
-            ]
-        },
-        {
             "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Dataset"
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -196,7 +105,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-08-01T15:40:26.605484"
+                    "@value": "2023-08-08T14:51:02.936448"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -207,7 +116,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-08-01T15:40:26.605484"
+                    "@value": "2023-08-08T14:51:02.936448"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -245,11 +154,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "rainfall"
+                    "@value": "climate"
                 },
                 {
                     "@language": "en",
-                    "@value": "climate"
+                    "@value": "rainfall"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -264,43 +173,77 @@
             ]
         },
         {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/met-office-geography",
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#class/statistical-geography",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "met-office-geography.csv#code-list"
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/statistical-geography"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@language": "en",
-                    "@value": "Met Office Geography"
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/statistical-geography"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#class/met-office-geography"
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.7"
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/rainfall-trend",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-trend"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-trend"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
                 }
             ]
         },
         {
             "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-trend",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#MeasureProperty"
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://www.w3.org/2000/01/rdf-schema#comment": [
                 {
@@ -326,14 +269,56 @@
             ]
         },
         {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#csvcubed-build-activity",
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/year",
             "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty"
             ],
-            "http://www.w3.org/ns/prov#used": [
+            "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.7"
+                    "@id": "year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
                 }
             ]
         },
@@ -345,12 +330,106 @@
             ]
         },
         {
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/year"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/rainfall-trend"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/measure-type"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/rainfall-accumulation"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/unit"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-trend"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-accumulation"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/year"
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/rainfall-accumulation",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-accumulation"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-accumulation"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
             "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-accumulation",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#MeasureProperty"
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://www.w3.org/2000/01/rdf-schema#comment": [
                 {
@@ -376,33 +455,36 @@
             ]
         },
         {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/rainfall-trend",
+            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/statistical-geography",
             "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-trend"
+                    "@language": "en",
+                    "@value": "Statistical Geography"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-trend"
+                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#class/statistical-geography"
                 }
             ],
-            "http://purl.org/linked-data/cube#order": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@value": 4
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
                 }
             ]
         },
         {
             "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/unit",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#attribute": [
@@ -427,105 +509,6 @@
             ]
         },
         {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/measure-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#class/met-office-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/met-office-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/met-office-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/met-office-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/rainfall-accumulation",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-accumulation"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#measure/rainfall-accumulation"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#component/year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
             "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dependency/year",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -543,27 +526,10 @@
             ]
         },
         {
-            "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#dependency/met-office-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
-            ],
-            "http://rdfs.org/ns/void#dataDump": [
-                {
-                    "@id": "./met-office-geography.csv-metadata.json"
-                }
-            ],
-            "http://rdfs.org/ns/void#uriSpace": [
-                {
-                    "@value": "met-office-geography.csv#"
-                }
-            ]
-        },
-        {
             "@id": "regional-average-climate-observations-uk-annual-rainfall.csv#unit/millimetre",
             "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
