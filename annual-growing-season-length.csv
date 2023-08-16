@@ -1,41 +1,631 @@
 Year,Geography,Measure,Value
+1960,K02000001,Number of Growing Season Days,277.3
+1961,K02000001,Number of Growing Season Days,296.6
+1962,K02000001,Number of Growing Season Days,249.4
+1963,K02000001,Number of Growing Season Days,256.8
+1964,K02000001,Number of Growing Season Days,269.6
+1965,K02000001,Number of Growing Season Days,275.7
+1966,K02000001,Number of Growing Season Days,279.1
+1967,K02000001,Number of Growing Season Days,292.9
+1968,K02000001,Number of Growing Season Days,289.1
+1969,K02000001,Number of Growing Season Days,269.3
+1970,K02000001,Number of Growing Season Days,272.9
+1971,K02000001,Number of Growing Season Days,280.0
+1972,K02000001,Number of Growing Season Days,268.1
+1973,K02000001,Number of Growing Season Days,275.1
+1974,K02000001,Number of Growing Season Days,296.3
+1975,K02000001,Number of Growing Season Days,308.9
+1976,K02000001,Number of Growing Season Days,304.9
+1977,K02000001,Number of Growing Season Days,266.4
+1978,K02000001,Number of Growing Season Days,262.6
+1979,K02000001,Number of Growing Season Days,221.2
+1980,K02000001,Number of Growing Season Days,259.1
+1981,K02000001,Number of Growing Season Days,280.4
+1982,K02000001,Number of Growing Season Days,272.0
+1983,K02000001,Number of Growing Season Days,312.9
+1984,K02000001,Number of Growing Season Days,264.8
+1985,K02000001,Number of Growing Season Days,260.4
+1986,K02000001,Number of Growing Season Days,266.7
+1987,K02000001,Number of Growing Season Days,261.3
+1988,K02000001,Number of Growing Season Days,269.1
+1989,K02000001,Number of Growing Season Days,304.4
+1990,K02000001,Number of Growing Season Days,291.8
+1991,K02000001,Number of Growing Season Days,268.9
+1992,K02000001,Number of Growing Season Days,292.1
+1993,K02000001,Number of Growing Season Days,281.7
+1994,K02000001,Number of Growing Season Days,296.7
+1995,K02000001,Number of Growing Season Days,288.2
+1996,K02000001,Number of Growing Season Days,303.1
+1997,K02000001,Number of Growing Season Days,290.3
+1998,K02000001,Number of Growing Season Days,304.7
+1999,K02000001,Number of Growing Season Days,312.1
+2000,K02000001,Number of Growing Season Days,309.9
+2001,K02000001,Number of Growing Season Days,270.5
+2002,K02000001,Number of Growing Season Days,300.6
+2003,K02000001,Number of Growing Season Days,302.5
+2004,K02000001,Number of Growing Season Days,326.5
+2005,K02000001,Number of Growing Season Days,304.1
+2006,K02000001,Number of Growing Season Days,300.9
+2007,K02000001,Number of Growing Season Days,331.0
+2008,K02000001,Number of Growing Season Days,288.6
+2009,K02000001,Number of Growing Season Days,282.6
+2010,K02000001,Number of Growing Season Days,246.1
+2011,K02000001,Number of Growing Season Days,308.6
+2012,K02000001,Number of Growing Season Days,305.5
+2013,K02000001,Number of Growing Season Days,329.3
+2014,K02000001,Number of Growing Season Days,307.9
+2015,K02000001,Number of Growing Season Days,318.6
+2016,K02000001,Number of Growing Season Days,303.0
+2017,K02000001,Number of Growing Season Days,292.7
+2018,K02000001,Number of Growing Season Days,270.6
 2019,K02000001,Number of Growing Season Days,295.8
 2020,K02000001,Number of Growing Season Days,319.0
 2021,K02000001,Number of Growing Season Days,286.7
 2022,K02000001,Number of Growing Season Days,293.2
+1960,E92000001,Number of Growing Season Days,293.4
+1961,E92000001,Number of Growing Season Days,308.9
+1962,E92000001,Number of Growing Season Days,263.8
+1963,E92000001,Number of Growing Season Days,267.8
+1964,E92000001,Number of Growing Season Days,281.7
+1965,E92000001,Number of Growing Season Days,294.2
+1966,E92000001,Number of Growing Season Days,299.6
+1967,E92000001,Number of Growing Season Days,302.9
+1968,E92000001,Number of Growing Season Days,315.6
+1969,E92000001,Number of Growing Season Days,289.4
+1970,E92000001,Number of Growing Season Days,304.8
+1971,E92000001,Number of Growing Season Days,283.5
+1972,E92000001,Number of Growing Season Days,282.6
+1973,E92000001,Number of Growing Season Days,289.3
+1974,E92000001,Number of Growing Season Days,320.4
+1975,E92000001,Number of Growing Season Days,329.6
+1976,E92000001,Number of Growing Season Days,316.7
+1977,E92000001,Number of Growing Season Days,283.9
+1978,E92000001,Number of Growing Season Days,275.7
+1979,E92000001,Number of Growing Season Days,232.0
+1980,E92000001,Number of Growing Season Days,271.1
+1981,E92000001,Number of Growing Season Days,292.8
+1982,E92000001,Number of Growing Season Days,283.4
+1983,E92000001,Number of Growing Season Days,330.2
+1984,E92000001,Number of Growing Season Days,278.9
+1985,E92000001,Number of Growing Season Days,270.2
+1986,E92000001,Number of Growing Season Days,299.3
+1987,E92000001,Number of Growing Season Days,281.8
+1988,E92000001,Number of Growing Season Days,287.6
+1989,E92000001,Number of Growing Season Days,313.6
+1990,E92000001,Number of Growing Season Days,310.3
+1991,E92000001,Number of Growing Season Days,287.2
+1992,E92000001,Number of Growing Season Days,326.1
+1993,E92000001,Number of Growing Season Days,299.1
+1994,E92000001,Number of Growing Season Days,324.6
+1995,E92000001,Number of Growing Season Days,304.0
+1996,E92000001,Number of Growing Season Days,312.4
+1997,E92000001,Number of Growing Season Days,295.4
+1998,E92000001,Number of Growing Season Days,314.9
+1999,E92000001,Number of Growing Season Days,335.4
+2000,E92000001,Number of Growing Season Days,326.7
+2001,E92000001,Number of Growing Season Days,287.9
+2002,E92000001,Number of Growing Season Days,320.5
+2003,E92000001,Number of Growing Season Days,321.0
+2004,E92000001,Number of Growing Season Days,343.7
+2005,E92000001,Number of Growing Season Days,314.9
+2006,E92000001,Number of Growing Season Days,324.3
+2007,E92000001,Number of Growing Season Days,340.5
+2008,E92000001,Number of Growing Season Days,313.6
+2009,E92000001,Number of Growing Season Days,294.5
+2010,E92000001,Number of Growing Season Days,255.0
+2011,E92000001,Number of Growing Season Days,329.5
+2012,E92000001,Number of Growing Season Days,323.0
+2013,E92000001,Number of Growing Season Days,346.1
+2014,E92000001,Number of Growing Season Days,326.5
+2015,E92000001,Number of Growing Season Days,346.3
+2016,E92000001,Number of Growing Season Days,333.2
+2017,E92000001,Number of Growing Season Days,305.1
+2018,E92000001,Number of Growing Season Days,297.1
 2019,E92000001,Number of Growing Season Days,307.9
 2020,E92000001,Number of Growing Season Days,330.9
 2021,E92000001,Number of Growing Season Days,296.6
 2022,E92000001,Number of Growing Season Days,296.8
+1960,W92000004,Number of Growing Season Days,297.0
+1961,W92000004,Number of Growing Season Days,305.7
+1962,W92000004,Number of Growing Season Days,277.8
+1963,W92000004,Number of Growing Season Days,267.9
+1964,W92000004,Number of Growing Season Days,292.6
+1965,W92000004,Number of Growing Season Days,301.6
+1966,W92000004,Number of Growing Season Days,297.7
+1967,W92000004,Number of Growing Season Days,302.8
+1968,W92000004,Number of Growing Season Days,308.5
+1969,W92000004,Number of Growing Season Days,301.9
+1970,W92000004,Number of Growing Season Days,299.8
+1971,W92000004,Number of Growing Season Days,284.2
+1972,W92000004,Number of Growing Season Days,286.8
+1973,W92000004,Number of Growing Season Days,304.2
+1974,W92000004,Number of Growing Season Days,304.4
+1975,W92000004,Number of Growing Season Days,335.6
+1976,W92000004,Number of Growing Season Days,324.7
+1977,W92000004,Number of Growing Season Days,285.7
+1978,W92000004,Number of Growing Season Days,280.2
+1979,W92000004,Number of Growing Season Days,231.6
+1980,W92000004,Number of Growing Season Days,271.3
+1981,W92000004,Number of Growing Season Days,290.1
+1982,W92000004,Number of Growing Season Days,280.5
+1983,W92000004,Number of Growing Season Days,321.3
+1984,W92000004,Number of Growing Season Days,271.0
+1985,W92000004,Number of Growing Season Days,289.3
+1986,W92000004,Number of Growing Season Days,294.7
+1987,W92000004,Number of Growing Season Days,264.3
+1988,W92000004,Number of Growing Season Days,264.6
+1989,W92000004,Number of Growing Season Days,317.7
+1990,W92000004,Number of Growing Season Days,305.1
+1991,W92000004,Number of Growing Season Days,278.7
+1992,W92000004,Number of Growing Season Days,327.1
+1993,W92000004,Number of Growing Season Days,289.5
+1994,W92000004,Number of Growing Season Days,323.2
+1995,W92000004,Number of Growing Season Days,310.3
+1996,W92000004,Number of Growing Season Days,307.4
+1997,W92000004,Number of Growing Season Days,300.4
+1998,W92000004,Number of Growing Season Days,325.4
+1999,W92000004,Number of Growing Season Days,318.1
+2000,W92000004,Number of Growing Season Days,332.2
+2001,W92000004,Number of Growing Season Days,283.5
+2002,W92000004,Number of Growing Season Days,322.3
+2003,W92000004,Number of Growing Season Days,311.3
+2004,W92000004,Number of Growing Season Days,346.7
+2005,W92000004,Number of Growing Season Days,308.8
+2006,W92000004,Number of Growing Season Days,322.6
+2007,W92000004,Number of Growing Season Days,332.1
+2008,W92000004,Number of Growing Season Days,301.5
+2009,W92000004,Number of Growing Season Days,292.5
+2010,W92000004,Number of Growing Season Days,249.7
+2011,W92000004,Number of Growing Season Days,334.9
+2012,W92000004,Number of Growing Season Days,322.3
+2013,W92000004,Number of Growing Season Days,346.0
+2014,W92000004,Number of Growing Season Days,322.8
+2015,W92000004,Number of Growing Season Days,341.6
+2016,W92000004,Number of Growing Season Days,318.4
+2017,W92000004,Number of Growing Season Days,304.2
+2018,W92000004,Number of Growing Season Days,298.1
 2019,W92000004,Number of Growing Season Days,308.5
 2020,W92000004,Number of Growing Season Days,322.7
 2021,W92000004,Number of Growing Season Days,302.3
 2022,W92000004,Number of Growing Season Days,293.2
+1960,S92000003,Number of Growing Season Days,242.9
+1961,S92000003,Number of Growing Season Days,273.9
+1962,S92000003,Number of Growing Season Days,212.2
+1963,S92000003,Number of Growing Season Days,233.6
+1964,S92000003,Number of Growing Season Days,237.5
+1965,S92000003,Number of Growing Season Days,235.4
+1966,S92000003,Number of Growing Season Days,237.0
+1967,S92000003,Number of Growing Season Days,270.3
+1968,S92000003,Number of Growing Season Days,231.8
+1969,S92000003,Number of Growing Season Days,223.7
+1970,S92000003,Number of Growing Season Days,213.6
+1971,S92000003,Number of Growing Season Days,264.1
+1972,S92000003,Number of Growing Season Days,244.1
+1973,S92000003,Number of Growing Season Days,236.1
+1974,S92000003,Number of Growing Season Days,251.5
+1975,S92000003,Number of Growing Season Days,262.8
+1976,S92000003,Number of Growing Season Days,278.0
+1977,S92000003,Number of Growing Season Days,232.6
+1978,S92000003,Number of Growing Season Days,235.1
+1979,S92000003,Number of Growing Season Days,200.5
+1980,S92000003,Number of Growing Season Days,231.6
+1981,S92000003,Number of Growing Season Days,252.7
+1982,S92000003,Number of Growing Season Days,246.4
+1983,S92000003,Number of Growing Season Days,276.9
+1984,S92000003,Number of Growing Season Days,240.2
+1985,S92000003,Number of Growing Season Days,230.9
+1986,S92000003,Number of Growing Season Days,207.6
+1987,S92000003,Number of Growing Season Days,227.9
+1988,S92000003,Number of Growing Season Days,240.5
+1989,S92000003,Number of Growing Season Days,282.4
+1990,S92000003,Number of Growing Season Days,257.5
+1991,S92000003,Number of Growing Season Days,236.9
+1992,S92000003,Number of Growing Season Days,227.1
+1993,S92000003,Number of Growing Season Days,250.1
+1994,S92000003,Number of Growing Season Days,242.1
+1995,S92000003,Number of Growing Season Days,248.7
+1996,S92000003,Number of Growing Season Days,283.5
+1997,S92000003,Number of Growing Season Days,267.8
+1998,S92000003,Number of Growing Season Days,276.6
+1999,S92000003,Number of Growing Season Days,269.7
+2000,S92000003,Number of Growing Season Days,273.0
+2001,S92000003,Number of Growing Season Days,238.2
+2002,S92000003,Number of Growing Season Days,256.8
+2003,S92000003,Number of Growing Season Days,268.7
+2004,S92000003,Number of Growing Season Days,288.8
+2005,S92000003,Number of Growing Season Days,282.8
+2006,S92000003,Number of Growing Season Days,256.3
+2007,S92000003,Number of Growing Season Days,311.7
+2008,S92000003,Number of Growing Season Days,241.8
+2009,S92000003,Number of Growing Season Days,256.9
+2010,S92000003,Number of Growing Season Days,224.6
+2011,S92000003,Number of Growing Season Days,265.0
+2012,S92000003,Number of Growing Season Days,268.5
+2013,S92000003,Number of Growing Season Days,294.3
+2014,S92000003,Number of Growing Season Days,275.6
+2015,S92000003,Number of Growing Season Days,269.6
+2016,S92000003,Number of Growing Season Days,247.6
+2017,S92000003,Number of Growing Season Days,264.2
+2018,S92000003,Number of Growing Season Days,220.5
 2019,S92000003,Number of Growing Season Days,268.6
 2020,S92000003,Number of Growing Season Days,298.4
 2021,S92000003,Number of Growing Season Days,263.6
 2022,S92000003,Number of Growing Season Days,285.3
+1960,N92000002,Number of Growing Season Days,289.1
+1961,N92000002,Number of Growing Season Days,293.6
+1962,N92000002,Number of Growing Season Days,280.2
+1963,N92000002,Number of Growing Season Days,267.3
+1964,N92000002,Number of Growing Season Days,301.7
+1965,N92000002,Number of Growing Season Days,288.5
+1966,N92000002,Number of Growing Season Days,295.1
+1967,N92000002,Number of Growing Season Days,310.9
+1968,N92000002,Number of Growing Season Days,331.2
+1969,N92000002,Number of Growing Season Days,287.2
+1970,N92000002,Number of Growing Season Days,264.2
+1971,N92000002,Number of Growing Season Days,328.8
+1972,N92000002,Number of Growing Season Days,236.3
+1973,N92000002,Number of Growing Season Days,316.4
+1974,N92000002,Number of Growing Season Days,308.0
+1975,N92000002,Number of Growing Season Days,331.7
+1976,N92000002,Number of Growing Season Days,314.9
+1977,N92000002,Number of Growing Season Days,262.0
+1978,N92000002,Number of Growing Season Days,268.2
+1979,N92000002,Number of Growing Season Days,218.8
+1980,N92000002,Number of Growing Season Days,281.1
+1981,N92000002,Number of Growing Season Days,303.4
+1982,N92000002,Number of Growing Season Days,295.3
+1983,N92000002,Number of Growing Season Days,339.5
+1984,N92000002,Number of Growing Season Days,260.5
+1985,N92000002,Number of Growing Season Days,290.6
+1986,N92000002,Number of Growing Season Days,248.6
+1987,N92000002,Number of Growing Season Days,250.5
+1988,N92000002,Number of Growing Season Days,261.3
+1989,N92000002,Number of Growing Season Days,319.8
+1990,N92000002,Number of Growing Season Days,288.3
+1991,N92000002,Number of Growing Season Days,260.9
+1992,N92000002,Number of Growing Season Days,284.6
+1993,N92000002,Number of Growing Season Days,281.7
+1994,N92000002,Number of Growing Season Days,300.7
+1995,N92000002,Number of Growing Season Days,327.5
+1996,N92000002,Number of Growing Season Days,319.2
+1997,N92000002,Number of Growing Season Days,353.8
+1998,N92000002,Number of Growing Season Days,334.2
+1999,N92000002,Number of Growing Season Days,321.5
+2000,N92000002,Number of Growing Season Days,325.8
+2001,N92000002,Number of Growing Season Days,269.0
+2002,N92000002,Number of Growing Season Days,326.2
+2003,N92000002,Number of Growing Season Days,302.8
+2004,N92000002,Number of Growing Season Days,346.7
+2005,N92000002,Number of Growing Season Days,313.4
+2006,N92000002,Number of Growing Season Days,297.7
+2007,N92000002,Number of Growing Season Days,348.7
+2008,N92000002,Number of Growing Season Days,296.6
+2009,N92000002,Number of Growing Season Days,300.0
+2010,N92000002,Number of Growing Season Days,278.1
+2011,N92000002,Number of Growing Season Days,317.4
+2012,N92000002,Number of Growing Season Days,322.4
+2013,N92000002,Number of Growing Season Days,341.7
+2014,N92000002,Number of Growing Season Days,290.0
+2015,N92000002,Number of Growing Season Days,299.5
+2016,N92000002,Number of Growing Season Days,306.8
+2017,N92000002,Number of Growing Season Days,317.6
+2018,N92000002,Number of Growing Season Days,260.9
 2019,N92000002,Number of Growing Season Days,313.8
 2020,N92000002,Number of Growing Season Days,317.2
 2021,N92000002,Number of Growing Season Days,299.2
 2022,N92000002,Number of Growing Season Days,303.0
-2019,K02000001,Growing Season Day Trend,298.7
-2020,K02000001,Growing Season Day Trend,298.8
-2021,K02000001,Growing Season Day Trend,298.6
-2022,K02000001,Growing Season Day Trend,298.7
-2019,E92000001,Growing Season Day Trend,308.0
-2020,E92000001,Growing Season Day Trend,308.1
-2021,E92000001,Growing Season Day Trend,308.0
-2022,E92000001,Growing Season Day Trend,308.0
-2019,W92000004,Growing Season Day Trend,306.7
-2020,W92000004,Growing Season Day Trend,306.7
-2021,W92000004,Growing Season Day Trend,306.6
-2022,W92000004,Growing Season Day Trend,306.6
-2019,S92000003,Growing Season Day Trend,278.9
-2020,S92000003,Growing Season Day Trend,279.1
-2021,S92000003,Growing Season Day Trend,278.9
-2022,S92000003,Growing Season Day Trend,279.0
-2019,N92000002,Growing Season Day Trend,308.3
-2020,N92000002,Growing Season Day Trend,308.3
-2021,N92000002,Growing Season Day Trend,308.3
-2022,N92000002,Growing Season Day Trend,308.3
+1960,K02000001,Growing Season Day Trend,274.8
+1961,K02000001,Growing Season Day Trend,275.0
+1962,K02000001,Growing Season Day Trend,275.2
+1963,K02000001,Growing Season Day Trend,275.5
+1964,K02000001,Growing Season Day Trend,276.0
+1965,K02000001,Growing Season Day Trend,276.2
+1966,K02000001,Growing Season Day Trend,276.4
+1967,K02000001,Growing Season Day Trend,276.6
+1968,K02000001,Growing Season Day Trend,276.7
+1969,K02000001,Growing Season Day Trend,276.8
+1970,K02000001,Growing Season Day Trend,277.0
+1971,K02000001,Growing Season Day Trend,277.1
+1972,K02000001,Growing Season Day Trend,277.1
+1973,K02000001,Growing Season Day Trend,276.9
+1974,K02000001,Growing Season Day Trend,276.8
+1975,K02000001,Growing Season Day Trend,276.7
+1976,K02000001,Growing Season Day Trend,276.3
+1977,K02000001,Growing Season Day Trend,275.7
+1978,K02000001,Growing Season Day Trend,275.2
+1979,K02000001,Growing Season Day Trend,274.7
+1980,K02000001,Growing Season Day Trend,274.8
+1981,K02000001,Growing Season Day Trend,275.1
+1982,K02000001,Growing Season Day Trend,275.5
+1983,K02000001,Growing Season Day Trend,276.1
+1984,K02000001,Growing Season Day Trend,276.5
+1985,K02000001,Growing Season Day Trend,277.1
+1986,K02000001,Growing Season Day Trend,278.1
+1987,K02000001,Growing Season Day Trend,279.1
+1988,K02000001,Growing Season Day Trend,280.3
+1989,K02000001,Growing Season Day Trend,281.6
+1990,K02000001,Growing Season Day Trend,283.1
+1991,K02000001,Growing Season Day Trend,284.7
+1992,K02000001,Growing Season Day Trend,286.5
+1993,K02000001,Growing Season Day Trend,288.5
+1994,K02000001,Growing Season Day Trend,290.4
+1995,K02000001,Growing Season Day Trend,291.8
+1996,K02000001,Growing Season Day Trend,293.0
+1997,K02000001,Growing Season Day Trend,294.1
+1998,K02000001,Growing Season Day Trend,295.2
+1999,K02000001,Growing Season Day Trend,296.4
+2000,K02000001,Growing Season Day Trend,297.4
+2001,K02000001,Growing Season Day Trend,298.2
+2002,K02000001,Growing Season Day Trend,299.1
+2003,K02000001,Growing Season Day Trend,299.8
+2004,K02000001,Growing Season Day Trend,300.3
+2005,K02000001,Growing Season Day Trend,300.5
+2006,K02000001,Growing Season Day Trend,300.7
+2007,K02000001,Growing Season Day Trend,300.7
+2008,K02000001,Growing Season Day Trend,300.4
+2009,K02000001,Growing Season Day Trend,300.0
+2010,K02000001,Growing Season Day Trend,299.8
+2011,K02000001,Growing Season Day Trend,300.0
+2012,K02000001,Growing Season Day Trend,300.2
+2013,K02000001,Growing Season Day Trend,300.1
+2014,K02000001,Growing Season Day Trend,299.8
+2015,K02000001,Growing Season Day Trend,299.5
+2016,K02000001,Growing Season Day Trend,299.1
+2017,K02000001,Growing Season Day Trend,298.6
+2018,K02000001,Growing Season Day Trend,298.3
+2019,K02000001,Growing Season Day Trend,298.3
+2020,K02000001,Growing Season Day Trend,298.5
+2021,K02000001,Growing Season Day Trend,298.4
+2022,K02000001,Growing Season Day Trend,298.2
+1960,E92000001,Growing Season Day Trend,290.5
+1961,E92000001,Growing Season Day Trend,290.8
+1962,E92000001,Growing Season Day Trend,291.0
+1963,E92000001,Growing Season Day Trend,291.4
+1964,E92000001,Growing Season Day Trend,291.9
+1965,E92000001,Growing Season Day Trend,292.3
+1966,E92000001,Growing Season Day Trend,292.6
+1967,E92000001,Growing Season Day Trend,292.9
+1968,E92000001,Growing Season Day Trend,293.1
+1969,E92000001,Growing Season Day Trend,293.3
+1970,E92000001,Growing Season Day Trend,293.5
+1971,E92000001,Growing Season Day Trend,293.4
+1972,E92000001,Growing Season Day Trend,293.4
+1973,E92000001,Growing Season Day Trend,293.2
+1974,E92000001,Growing Season Day Trend,293.1
+1975,E92000001,Growing Season Day Trend,292.9
+1976,E92000001,Growing Season Day Trend,292.4
+1977,E92000001,Growing Season Day Trend,291.8
+1978,E92000001,Growing Season Day Trend,291.2
+1979,E92000001,Growing Season Day Trend,290.8
+1980,E92000001,Growing Season Day Trend,290.9
+1981,E92000001,Growing Season Day Trend,291.3
+1982,E92000001,Growing Season Day Trend,291.9
+1983,E92000001,Growing Season Day Trend,292.5
+1984,E92000001,Growing Season Day Trend,293.1
+1985,E92000001,Growing Season Day Trend,293.9
+1986,E92000001,Growing Season Day Trend,295.1
+1987,E92000001,Growing Season Day Trend,296.2
+1988,E92000001,Growing Season Day Trend,297.5
+1989,E92000001,Growing Season Day Trend,299.0
+1990,E92000001,Growing Season Day Trend,300.6
+1991,E92000001,Growing Season Day Trend,302.3
+1992,E92000001,Growing Season Day Trend,304.3
+1993,E92000001,Growing Season Day Trend,306.2
+1994,E92000001,Growing Season Day Trend,308.1
+1995,E92000001,Growing Season Day Trend,309.4
+1996,E92000001,Growing Season Day Trend,310.3
+1997,E92000001,Growing Season Day Trend,311.2
+1998,E92000001,Growing Season Day Trend,312.2
+1999,E92000001,Growing Season Day Trend,313.4
+2000,E92000001,Growing Season Day Trend,314.3
+2001,E92000001,Growing Season Day Trend,315.1
+2002,E92000001,Growing Season Day Trend,316.1
+2003,E92000001,Growing Season Day Trend,316.9
+2004,E92000001,Growing Season Day Trend,317.4
+2005,E92000001,Growing Season Day Trend,317.6
+2006,E92000001,Growing Season Day Trend,317.8
+2007,E92000001,Growing Season Day Trend,317.8
+2008,E92000001,Growing Season Day Trend,317.5
+2009,E92000001,Growing Season Day Trend,317.1
+2010,E92000001,Growing Season Day Trend,316.8
+2011,E92000001,Growing Season Day Trend,317.1
+2012,E92000001,Growing Season Day Trend,317.2
+2013,E92000001,Growing Season Day Trend,317.1
+2014,E92000001,Growing Season Day Trend,316.6
+2015,E92000001,Growing Season Day Trend,316.3
+2016,E92000001,Growing Season Day Trend,315.8
+2017,E92000001,Growing Season Day Trend,315.1
+2018,E92000001,Growing Season Day Trend,314.6
+2019,E92000001,Growing Season Day Trend,314.4
+2020,E92000001,Growing Season Day Trend,314.4
+2021,E92000001,Growing Season Day Trend,314.1
+2022,E92000001,Growing Season Day Trend,313.8
+1960,W92000004,Growing Season Day Trend,293.9
+1961,W92000004,Growing Season Day Trend,294.1
+1962,W92000004,Growing Season Day Trend,294.4
+1963,W92000004,Growing Season Day Trend,294.7
+1964,W92000004,Growing Season Day Trend,295.2
+1965,W92000004,Growing Season Day Trend,295.4
+1966,W92000004,Growing Season Day Trend,295.6
+1967,W92000004,Growing Season Day Trend,295.7
+1968,W92000004,Growing Season Day Trend,295.7
+1969,W92000004,Growing Season Day Trend,295.7
+1970,W92000004,Growing Season Day Trend,295.6
+1971,W92000004,Growing Season Day Trend,295.5
+1972,W92000004,Growing Season Day Trend,295.3
+1973,W92000004,Growing Season Day Trend,294.9
+1974,W92000004,Growing Season Day Trend,294.4
+1975,W92000004,Growing Season Day Trend,293.9
+1976,W92000004,Growing Season Day Trend,293.1
+1977,W92000004,Growing Season Day Trend,292.0
+1978,W92000004,Growing Season Day Trend,291.1
+1979,W92000004,Growing Season Day Trend,290.1
+1980,W92000004,Growing Season Day Trend,289.9
+1981,W92000004,Growing Season Day Trend,289.9
+1982,W92000004,Growing Season Day Trend,290.0
+1983,W92000004,Growing Season Day Trend,290.4
+1984,W92000004,Growing Season Day Trend,290.7
+1985,W92000004,Growing Season Day Trend,291.3
+1986,W92000004,Growing Season Day Trend,292.2
+1987,W92000004,Growing Season Day Trend,293.0
+1988,W92000004,Growing Season Day Trend,294.1
+1989,W92000004,Growing Season Day Trend,295.6
+1990,W92000004,Growing Season Day Trend,297.2
+1991,W92000004,Growing Season Day Trend,299.0
+1992,W92000004,Growing Season Day Trend,301.1
+1993,W92000004,Growing Season Day Trend,303.1
+1994,W92000004,Growing Season Day Trend,305.1
+1995,W92000004,Growing Season Day Trend,306.5
+1996,W92000004,Growing Season Day Trend,307.6
+1997,W92000004,Growing Season Day Trend,308.6
+1998,W92000004,Growing Season Day Trend,309.7
+1999,W92000004,Growing Season Day Trend,310.8
+2000,W92000004,Growing Season Day Trend,311.8
+2001,W92000004,Growing Season Day Trend,312.6
+2002,W92000004,Growing Season Day Trend,313.6
+2003,W92000004,Growing Season Day Trend,314.2
+2004,W92000004,Growing Season Day Trend,314.6
+2005,W92000004,Growing Season Day Trend,314.7
+2006,W92000004,Growing Season Day Trend,314.9
+2007,W92000004,Growing Season Day Trend,314.7
+2008,W92000004,Growing Season Day Trend,314.4
+2009,W92000004,Growing Season Day Trend,314.0
+2010,W92000004,Growing Season Day Trend,313.7
+2011,W92000004,Growing Season Day Trend,314.1
+2012,W92000004,Growing Season Day Trend,314.2
+2013,W92000004,Growing Season Day Trend,314.1
+2014,W92000004,Growing Season Day Trend,313.7
+2015,W92000004,Growing Season Day Trend,313.3
+2016,W92000004,Growing Season Day Trend,312.9
+2017,W92000004,Growing Season Day Trend,312.3
+2018,W92000004,Growing Season Day Trend,311.9
+2019,W92000004,Growing Season Day Trend,311.8
+2020,W92000004,Growing Season Day Trend,311.9
+2021,W92000004,Growing Season Day Trend,311.7
+2022,W92000004,Growing Season Day Trend,311.5
+1960,S92000003,Growing Season Day Trend,240.4
+1961,S92000003,Growing Season Day Trend,240.5
+1962,S92000003,Growing Season Day Trend,240.5
+1963,S92000003,Growing Season Day Trend,240.7
+1964,S92000003,Growing Season Day Trend,241.1
+1965,S92000003,Growing Season Day Trend,241.1
+1966,S92000003,Growing Season Day Trend,241.1
+1967,S92000003,Growing Season Day Trend,241.2
+1968,S92000003,Growing Season Day Trend,241.2
+1969,S92000003,Growing Season Day Trend,241.3
+1970,S92000003,Growing Season Day Trend,241.6
+1971,S92000003,Growing Season Day Trend,242.1
+1972,S92000003,Growing Season Day Trend,242.2
+1973,S92000003,Growing Season Day Trend,242.1
+1974,S92000003,Growing Season Day Trend,242.2
+1975,S92000003,Growing Season Day Trend,242.3
+1976,S92000003,Growing Season Day Trend,242.4
+1977,S92000003,Growing Season Day Trend,242.3
+1978,S92000003,Growing Season Day Trend,242.0
+1979,S92000003,Growing Season Day Trend,241.8
+1980,S92000003,Growing Season Day Trend,242.0
+1981,S92000003,Growing Season Day Trend,242.2
+1982,S92000003,Growing Season Day Trend,242.5
+1983,S92000003,Growing Season Day Trend,243.0
+1984,S92000003,Growing Season Day Trend,243.3
+1985,S92000003,Growing Season Day Trend,243.7
+1986,S92000003,Growing Season Day Trend,244.2
+1987,S92000003,Growing Season Day Trend,245.0
+1988,S92000003,Growing Season Day Trend,246.1
+1989,S92000003,Growing Season Day Trend,247.3
+1990,S92000003,Growing Season Day Trend,248.4
+1991,S92000003,Growing Season Day Trend,249.6
+1992,S92000003,Growing Season Day Trend,251.0
+1993,S92000003,Growing Season Day Trend,252.9
+1994,S92000003,Growing Season Day Trend,254.7
+1995,S92000003,Growing Season Day Trend,256.3
+1996,S92000003,Growing Season Day Trend,257.8
+1997,S92000003,Growing Season Day Trend,259.0
+1998,S92000003,Growing Season Day Trend,260.2
+1999,S92000003,Growing Season Day Trend,261.4
+2000,S92000003,Growing Season Day Trend,262.5
+2001,S92000003,Growing Season Day Trend,263.4
+2002,S92000003,Growing Season Day Trend,264.3
+2003,S92000003,Growing Season Day Trend,265.0
+2004,S92000003,Growing Season Day Trend,265.4
+2005,S92000003,Growing Season Day Trend,265.7
+2006,S92000003,Growing Season Day Trend,265.9
+2007,S92000003,Growing Season Day Trend,266.1
+2008,S92000003,Growing Season Day Trend,265.8
+2009,S92000003,Growing Season Day Trend,265.7
+2010,S92000003,Growing Season Day Trend,265.6
+2011,S92000003,Growing Season Day Trend,265.9
+2012,S92000003,Growing Season Day Trend,266.3
+2013,S92000003,Growing Season Day Trend,266.5
+2014,S92000003,Growing Season Day Trend,266.5
+2015,S92000003,Growing Season Day Trend,266.4
+2016,S92000003,Growing Season Day Trend,266.2
+2017,S92000003,Growing Season Day Trend,266.1
+2018,S92000003,Growing Season Day Trend,266.2
+2019,S92000003,Growing Season Day Trend,266.6
+2020,S92000003,Growing Season Day Trend,267.2
+2021,S92000003,Growing Season Day Trend,267.3
+2022,S92000003,Growing Season Day Trend,267.4
+1960,N92000002,Growing Season Day Trend,291.3
+1961,N92000002,Growing Season Day Trend,291.6
+1962,N92000002,Growing Season Day Trend,292.1
+1963,N92000002,Growing Season Day Trend,292.2
+1964,N92000002,Growing Season Day Trend,292.7
+1965,N92000002,Growing Season Day Trend,292.7
+1966,N92000002,Growing Season Day Trend,292.6
+1967,N92000002,Growing Season Day Trend,292.6
+1968,N92000002,Growing Season Day Trend,292.7
+1969,N92000002,Growing Season Day Trend,292.6
+1970,N92000002,Growing Season Day Trend,292.4
+1971,N92000002,Growing Season Day Trend,292.4
+1972,N92000002,Growing Season Day Trend,291.9
+1973,N92000002,Growing Season Day Trend,291.6
+1974,N92000002,Growing Season Day Trend,290.9
+1975,N92000002,Growing Season Day Trend,290.2
+1976,N92000002,Growing Season Day Trend,289.2
+1977,N92000002,Growing Season Day Trend,287.8
+1978,N92000002,Growing Season Day Trend,286.6
+1979,N92000002,Growing Season Day Trend,285.4
+1980,N92000002,Growing Season Day Trend,285.0
+1981,N92000002,Growing Season Day Trend,284.8
+1982,N92000002,Growing Season Day Trend,284.7
+1983,N92000002,Growing Season Day Trend,284.8
+1984,N92000002,Growing Season Day Trend,285.0
+1985,N92000002,Growing Season Day Trend,285.5
+1986,N92000002,Growing Season Day Trend,286.0
+1987,N92000002,Growing Season Day Trend,287.0
+1988,N92000002,Growing Season Day Trend,288.3
+1989,N92000002,Growing Season Day Trend,290.0
+1990,N92000002,Growing Season Day Trend,291.7
+1991,N92000002,Growing Season Day Trend,293.8
+1992,N92000002,Growing Season Day Trend,296.3
+1993,N92000002,Growing Season Day Trend,298.9
+1994,N92000002,Growing Season Day Trend,301.6
+1995,N92000002,Growing Season Day Trend,303.9
+1996,N92000002,Growing Season Day Trend,305.8
+1997,N92000002,Growing Season Day Trend,307.5
+1998,N92000002,Growing Season Day Trend,308.9
+1999,N92000002,Growing Season Day Trend,310.4
+2000,N92000002,Growing Season Day Trend,311.4
+2001,N92000002,Growing Season Day Trend,312.2
+2002,N92000002,Growing Season Day Trend,313.0
+2003,N92000002,Growing Season Day Trend,313.5
+2004,N92000002,Growing Season Day Trend,313.6
+2005,N92000002,Growing Season Day Trend,313.4
+2006,N92000002,Growing Season Day Trend,313.1
+2007,N92000002,Growing Season Day Trend,312.7
+2008,N92000002,Growing Season Day Trend,311.8
+2009,N92000002,Growing Season Day Trend,310.9
+2010,N92000002,Growing Season Day Trend,309.9
+2011,N92000002,Growing Season Day Trend,309.4
+2012,N92000002,Growing Season Day Trend,308.8
+2013,N92000002,Growing Season Day Trend,308.1
+2014,N92000002,Growing Season Day Trend,307.3
+2015,N92000002,Growing Season Day Trend,306.6
+2016,N92000002,Growing Season Day Trend,306.1
+2017,N92000002,Growing Season Day Trend,305.4
+2018,N92000002,Growing Season Day Trend,304.8
+2019,N92000002,Growing Season Day Trend,304.6
+2020,N92000002,Growing Season Day Trend,304.7
+2021,N92000002,Growing Season Day Trend,304.5
+2022,N92000002,Growing Season Day Trend,304.3
