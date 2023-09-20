@@ -1,0 +1,76 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: Annual Growing Season Length for each UK country geography code
+          - Label: Annual Growing Season Length for each UK country geography code
+          - Issued: 2023-09-20T14:19:03.545720
+          - Modified: 2023-09-20T14:19:03.545720
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/met-office
+          - Publisher: https://www.gov.uk/government/organisations/met-office
+          - Landing Pages: None
+          - Themes: 
+		-- http://gss-data.org.uk/def/gdp#climate-change
+          - Keywords: 
+		-- growing season
+		-- climate
+		-- temperature
+          - Contact Point: None
+          - Identifier: Annual Growing Season Length for each UK country geography code
+          - Comment: Climate observations that have been averaged across each UK country for each year
+          - Description: Derived from https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Annual Growing Season Length for each UK country geography code
+    - Columns: 
+        Title         Type  Required                                                                                        Property URL Observations Column Titles
+         Year    Dimension      True                  annual-growing-season-length-for-each-uk-country-geography-code.csv#dimension/year                           
+    Geography    Dimension      True annual-growing-season-length-for-each-uk-country-geography-code.csv#dimension/statistical-geography                           
+      Measure     Measures      True                                                        http://purl.org/linked-data/cube#measureType                      Value
+        Value Observations      True              annual-growing-season-length-for-each-uk-country-geography-code.csv#measure/{+measure}                           
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 1
+        - Code Lists:
+         Code List Code List Label Columns Used In
+year.csv#code-list            Year            Year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 630
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+ Year Geography                       Measure  Value
+ 1960 K02000001 number-of-growing-season-days  277.3
+ 1961 K02000001 number-of-growing-season-days  296.6
+ 1962 K02000001 number-of-growing-season-days  249.4
+ 1963 K02000001 number-of-growing-season-days  256.8
+ 1964 K02000001 number-of-growing-season-days  269.6
+ 1965 K02000001 number-of-growing-season-days  275.7
+ 1966 K02000001 number-of-growing-season-days  279.1
+ 1967 K02000001 number-of-growing-season-days  292.9
+ 1968 K02000001 number-of-growing-season-days  289.1
+ 1969 K02000001 number-of-growing-season-days  269.3
+        - Last 10 Observations: 
+ Year Geography                  Measure  Value
+ 2013 N92000002 growing-season-day-trend  308.1
+ 2014 N92000002 growing-season-day-trend  307.3
+ 2015 N92000002 growing-season-day-trend  306.6
+ 2016 N92000002 growing-season-day-trend  306.1
+ 2017 N92000002 growing-season-day-trend  305.4
+ 2018 N92000002 growing-season-day-trend  304.8
+ 2019 N92000002 growing-season-day-trend  304.6
+ 2020 N92000002 growing-season-day-trend  304.7
+ 2021 N92000002 growing-season-day-trend  304.5
+ 2022 N92000002 growing-season-day-trend  304.3
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                      Measure Unit  Count
+     growing-season-day-trend  Day    315
+number-of-growing-season-days  Day    315
+        

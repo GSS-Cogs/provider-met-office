@@ -1,0 +1,76 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: Annual Rainfall for each UK country geography code
+          - Label: Annual Rainfall for each UK country geography code
+          - Issued: 2023-09-20T14:19:18.426584
+          - Modified: 2023-09-20T14:19:18.426584
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/met-office
+          - Publisher: https://www.gov.uk/government/organisations/met-office
+          - Landing Pages: None
+          - Themes: 
+		-- http://gss-data.org.uk/def/gdp#climate-change
+          - Keywords: 
+		-- climate
+		-- precipitation
+		-- rainfall
+          - Contact Point: None
+          - Identifier: Annual Rainfall for each UK country geography code
+          - Comment: Climate observations that have been averaged across each UK country for each year
+          - Description: Derived from https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Annual Rainfall for each UK country geography code
+    - Columns: 
+        Title         Type  Required                                                                           Property URL Observations Column Titles
+         Year    Dimension      True                  annual-rainfall-for-each-uk-country-geography-code.csv#dimension/year                           
+    Geography    Dimension      True annual-rainfall-for-each-uk-country-geography-code.csv#dimension/statistical-geography                           
+      Measure     Measures      True                                           http://purl.org/linked-data/cube#measureType                      Value
+        Value Observations      True              annual-rainfall-for-each-uk-country-geography-code.csv#measure/{+measure}                           
+    - Columns where suppress output is true: None
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 1
+        - Code Lists:
+         Code List Code List Label Columns Used In
+year.csv#code-list            Year            Year
+
+- The data cube has the following dataset information:
+        - Number of Observations: 1870
+        - Number of Duplicates: 0
+        - First 10 Observations: 
+ Year Geography               Measure  Value
+ 1836 K02000001 rainfall-accumulation 1123.8
+ 1837 K02000001 rainfall-accumulation  908.9
+ 1838 K02000001 rainfall-accumulation  937.4
+ 1839 K02000001 rainfall-accumulation 1063.6
+ 1840 K02000001 rainfall-accumulation  889.8
+ 1841 K02000001 rainfall-accumulation 1121.4
+ 1842 K02000001 rainfall-accumulation  923.5
+ 1843 K02000001 rainfall-accumulation 1004.3
+ 1844 K02000001 rainfall-accumulation  830.4
+ 1845 K02000001 rainfall-accumulation 1028.5
+        - Last 10 Observations: 
+ Year Geography        Measure  Value
+ 2013 N92000002 rainfall-trend 1168.4
+ 2014 N92000002 rainfall-trend 1169.4
+ 2015 N92000002 rainfall-trend 1169.1
+ 2016 N92000002 rainfall-trend 1168.4
+ 2017 N92000002 rainfall-trend 1168.1
+ 2018 N92000002 rainfall-trend 1169.0
+ 2019 N92000002 rainfall-trend 1169.6
+ 2020 N92000002 rainfall-trend 1170.0
+ 2021 N92000002 rainfall-trend 1168.0
+ 2022 N92000002 rainfall-trend 1167.4
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+              Measure       Unit  Count
+rainfall-accumulation Millimetre    935
+       rainfall-trend Millimetre    935
+        
