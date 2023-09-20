@@ -1,9 +1,9 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "Regional average climate observations UK Growing Season Length",
-    "summary": "Climate observations that have been averaged across UK geographic areas",
+    "title": "Annual Growing Season Length for each UK country geography code",
+    "summary": "Climate observations that have been averaged across each UK country for each year",
     "description": "Derived from https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb",
-    "dataset_version": "v1.1.0.0",
+    "dataset_version": "v1.2.0.0",
     "publisher": "https://www.gov.uk/government/organisations/met-office",
     "creator": "https://www.gov.uk/government/organisations/met-office",
     "themes": "http://gss-data.org.uk/def/gdp#climate-change",
