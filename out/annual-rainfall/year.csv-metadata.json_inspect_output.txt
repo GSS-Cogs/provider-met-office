@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Year
           - Label: Year
-          - Issued: 2023-08-08T14:51:02.928748
-          - Modified: 2023-08-08T14:51:02.928748
+          - Issued: 2023-09-20T14:19:18.459175
+          - Modified: 2023-09-20T14:19:18.459175
           - License: None
           - Creator: None
           - Publisher: None
@@ -20,23 +20,35 @@
         
 
 - The code list has the following dataset information:
-        - Number of Concepts: 4
+        - Number of Concepts: 187
         - Number of Duplicates: 0
-        - Concepts: 
+        - First 10 Concepts: 
  Uri Identifier  Label  Notation  Parent Uri Identifier  Sort Priority  Description                      Original Concept URI
-           2019   2019      2019                    NaN              0          NaN http://reference.data.gov.uk/id/year/2019
-           2020   2020      2020                    NaN              1          NaN http://reference.data.gov.uk/id/year/2020
-           2021   2021      2021                    NaN              2          NaN http://reference.data.gov.uk/id/year/2021
-           2022   2022      2022                    NaN              3          NaN http://reference.data.gov.uk/id/year/2022
+           1836   1836      1836                    NaN              0          NaN http://reference.data.gov.uk/id/year/1836
+           1837   1837      1837                    NaN              1          NaN http://reference.data.gov.uk/id/year/1837
+           1838   1838      1838                    NaN              2          NaN http://reference.data.gov.uk/id/year/1838
+           1839   1839      1839                    NaN              3          NaN http://reference.data.gov.uk/id/year/1839
+           1840   1840      1840                    NaN              4          NaN http://reference.data.gov.uk/id/year/1840
+           1841   1841      1841                    NaN              5          NaN http://reference.data.gov.uk/id/year/1841
+           1842   1842      1842                    NaN              6          NaN http://reference.data.gov.uk/id/year/1842
+           1843   1843      1843                    NaN              7          NaN http://reference.data.gov.uk/id/year/1843
+           1844   1844      1844                    NaN              8          NaN http://reference.data.gov.uk/id/year/1844
+           1845   1845      1845                    NaN              9          NaN http://reference.data.gov.uk/id/year/1845
+        - Last 10 Concepts: 
+ Uri Identifier  Label  Notation  Parent Uri Identifier  Sort Priority  Description                      Original Concept URI
+           2013   2013      2013                    NaN            177          NaN http://reference.data.gov.uk/id/year/2013
+           2014   2014      2014                    NaN            178          NaN http://reference.data.gov.uk/id/year/2014
+           2015   2015      2015                    NaN            179          NaN http://reference.data.gov.uk/id/year/2015
+           2016   2016      2016                    NaN            180          NaN http://reference.data.gov.uk/id/year/2016
+           2017   2017      2017                    NaN            181          NaN http://reference.data.gov.uk/id/year/2017
+           2018   2018      2018                    NaN            182          NaN http://reference.data.gov.uk/id/year/2018
+           2019   2019      2019                    NaN            183          NaN http://reference.data.gov.uk/id/year/2019
+           2020   2020      2020                    NaN            184          NaN http://reference.data.gov.uk/id/year/2020
+           2021   2021      2021                    NaN            185          NaN http://reference.data.gov.uk/id/year/2021
+           2022   2022      2022                    NaN            186          NaN http://reference.data.gov.uk/id/year/2022
         
 
 - The code list has the following concepts information:
         - Concepts hierarchy depth: 1
-        - Concepts hierarchy:
-root
-├── 2019
-├── 2020
-├── 2021
-└── 2022
-
+        - Concepts hierarchy: Hierarchy is too large to display.
         
