@@ -1,0 +1,631 @@
+Year,Geography,Measure,Value
+1960,K02000001,Cooling Degree Days,5.54
+1961,K02000001,Cooling Degree Days,6.92
+1962,K02000001,Cooling Degree Days,1.15
+1963,K02000001,Cooling Degree Days,4.62
+1964,K02000001,Cooling Degree Days,5.99
+1965,K02000001,Cooling Degree Days,1.71
+1966,K02000001,Cooling Degree Days,3.39
+1967,K02000001,Cooling Degree Days,4.78
+1968,K02000001,Cooling Degree Days,3.84
+1969,K02000001,Cooling Degree Days,10.16
+1970,K02000001,Cooling Degree Days,11.05
+1971,K02000001,Cooling Degree Days,5.9
+1972,K02000001,Cooling Degree Days,3.3
+1973,K02000001,Cooling Degree Days,10.37
+1974,K02000001,Cooling Degree Days,1.58
+1975,K02000001,Cooling Degree Days,23.33
+1976,K02000001,Cooling Degree Days,38.0
+1977,K02000001,Cooling Degree Days,5.97
+1978,K02000001,Cooling Degree Days,4.64
+1979,K02000001,Cooling Degree Days,5.05
+1980,K02000001,Cooling Degree Days,4.36
+1981,K02000001,Cooling Degree Days,6.19
+1982,K02000001,Cooling Degree Days,11.87
+1983,K02000001,Cooling Degree Days,24.52
+1984,K02000001,Cooling Degree Days,15.26
+1985,K02000001,Cooling Degree Days,4.14
+1986,K02000001,Cooling Degree Days,7.3
+1987,K02000001,Cooling Degree Days,5.74
+1988,K02000001,Cooling Degree Days,3.55
+1989,K02000001,Cooling Degree Days,24.43
+1990,K02000001,Cooling Degree Days,22.04
+1991,K02000001,Cooling Degree Days,11.26
+1992,K02000001,Cooling Degree Days,8.64
+1993,K02000001,Cooling Degree Days,3.85
+1994,K02000001,Cooling Degree Days,11.22
+1995,K02000001,Cooling Degree Days,38.09
+1996,K02000001,Cooling Degree Days,12.57
+1997,K02000001,Cooling Degree Days,17.85
+1998,K02000001,Cooling Degree Days,5.89
+1999,K02000001,Cooling Degree Days,16.02
+2000,K02000001,Cooling Degree Days,8.55
+2001,K02000001,Cooling Degree Days,12.28
+2002,K02000001,Cooling Degree Days,7.29
+2003,K02000001,Cooling Degree Days,26.18
+2004,K02000001,Cooling Degree Days,11.53
+2005,K02000001,Cooling Degree Days,15.83
+2006,K02000001,Cooling Degree Days,30.08
+2007,K02000001,Cooling Degree Days,3.9
+2008,K02000001,Cooling Degree Days,6.94
+2009,K02000001,Cooling Degree Days,10.23
+2010,K02000001,Cooling Degree Days,10.63
+2011,K02000001,Cooling Degree Days,9.66
+2012,K02000001,Cooling Degree Days,9.36
+2013,K02000001,Cooling Degree Days,19.17
+2014,K02000001,Cooling Degree Days,11.58
+2015,K02000001,Cooling Degree Days,7.89
+2016,K02000001,Cooling Degree Days,13.87
+2017,K02000001,Cooling Degree Days,12.41
+2018,K02000001,Cooling Degree Days,31.91
+2019,K02000001,Cooling Degree Days,17.93
+2020,K02000001,Cooling Degree Days,22.07
+2021,K02000001,Cooling Degree Days,15.41
+2022,K02000001,Cooling Degree Days,33.92
+1960,E92000001,Cooling Degree Days,7.85
+1961,E92000001,Cooling Degree Days,11.59
+1962,E92000001,Cooling Degree Days,1.91
+1963,E92000001,Cooling Degree Days,6.81
+1964,E92000001,Cooling Degree Days,10.69
+1965,E92000001,Cooling Degree Days,2.71
+1966,E92000001,Cooling Degree Days,5.77
+1967,E92000001,Cooling Degree Days,8.21
+1968,E92000001,Cooling Degree Days,6.02
+1969,E92000001,Cooling Degree Days,16.35
+1970,E92000001,Cooling Degree Days,16.68
+1971,E92000001,Cooling Degree Days,8.82
+1972,E92000001,Cooling Degree Days,3.88
+1973,E92000001,Cooling Degree Days,16.44
+1974,E92000001,Cooling Degree Days,2.61
+1975,E92000001,Cooling Degree Days,34.55
+1976,E92000001,Cooling Degree Days,55.91
+1977,E92000001,Cooling Degree Days,7.27
+1978,E92000001,Cooling Degree Days,6.66
+1979,E92000001,Cooling Degree Days,8.51
+1980,E92000001,Cooling Degree Days,6.93
+1981,E92000001,Cooling Degree Days,10.61
+1982,E92000001,Cooling Degree Days,17.09
+1983,E92000001,Cooling Degree Days,35.4
+1984,E92000001,Cooling Degree Days,22.36
+1985,E92000001,Cooling Degree Days,6.91
+1986,E92000001,Cooling Degree Days,10.45
+1987,E92000001,Cooling Degree Days,9.85
+1988,E92000001,Cooling Degree Days,5.43
+1989,E92000001,Cooling Degree Days,37.11
+1990,E92000001,Cooling Degree Days,35.44
+1991,E92000001,Cooling Degree Days,17.51
+1992,E92000001,Cooling Degree Days,13.97
+1993,E92000001,Cooling Degree Days,6.62
+1994,E92000001,Cooling Degree Days,19.6
+1995,E92000001,Cooling Degree Days,54.0
+1996,E92000001,Cooling Degree Days,20.93
+1997,E92000001,Cooling Degree Days,27.64
+1998,E92000001,Cooling Degree Days,9.94
+1999,E92000001,Cooling Degree Days,24.83
+2000,E92000001,Cooling Degree Days,14.02
+2001,E92000001,Cooling Degree Days,20.7
+2002,E92000001,Cooling Degree Days,12.57
+2003,E92000001,Cooling Degree Days,40.4
+2004,E92000001,Cooling Degree Days,19.42
+2005,E92000001,Cooling Degree Days,25.55
+2006,E92000001,Cooling Degree Days,46.15
+2007,E92000001,Cooling Degree Days,6.57
+2008,E92000001,Cooling Degree Days,11.0
+2009,E92000001,Cooling Degree Days,15.4
+2010,E92000001,Cooling Degree Days,18.52
+2011,E92000001,Cooling Degree Days,16.76
+2012,E92000001,Cooling Degree Days,14.77
+2013,E92000001,Cooling Degree Days,29.12
+2014,E92000001,Cooling Degree Days,17.74
+2015,E92000001,Cooling Degree Days,13.37
+2016,E92000001,Cooling Degree Days,22.69
+2017,E92000001,Cooling Degree Days,19.98
+2018,E92000001,Cooling Degree Days,49.74
+2019,E92000001,Cooling Degree Days,28.96
+2020,E92000001,Cooling Degree Days,36.4
+2021,E92000001,Cooling Degree Days,22.16
+2022,E92000001,Cooling Degree Days,54.29
+1960,W92000004,Cooling Degree Days,5.3
+1961,W92000004,Cooling Degree Days,5.65
+1962,W92000004,Cooling Degree Days,0.36
+1963,W92000004,Cooling Degree Days,5.45
+1964,W92000004,Cooling Degree Days,1.82
+1965,W92000004,Cooling Degree Days,1.99
+1966,W92000004,Cooling Degree Days,1.3
+1967,W92000004,Cooling Degree Days,2.77
+1968,W92000004,Cooling Degree Days,2.29
+1969,W92000004,Cooling Degree Days,6.42
+1970,W92000004,Cooling Degree Days,8.43
+1971,W92000004,Cooling Degree Days,5.44
+1972,W92000004,Cooling Degree Days,2.77
+1973,W92000004,Cooling Degree Days,8.23
+1974,W92000004,Cooling Degree Days,0.93
+1975,W92000004,Cooling Degree Days,18.23
+1976,W92000004,Cooling Degree Days,39.05
+1977,W92000004,Cooling Degree Days,5.6
+1978,W92000004,Cooling Degree Days,3.39
+1979,W92000004,Cooling Degree Days,2.43
+1980,W92000004,Cooling Degree Days,3.13
+1981,W92000004,Cooling Degree Days,3.97
+1982,W92000004,Cooling Degree Days,8.61
+1983,W92000004,Cooling Degree Days,26.89
+1984,W92000004,Cooling Degree Days,14.99
+1985,W92000004,Cooling Degree Days,3.37
+1986,W92000004,Cooling Degree Days,5.81
+1987,W92000004,Cooling Degree Days,3.39
+1988,W92000004,Cooling Degree Days,3.58
+1989,W92000004,Cooling Degree Days,20.14
+1990,W92000004,Cooling Degree Days,20.22
+1991,W92000004,Cooling Degree Days,7.03
+1992,W92000004,Cooling Degree Days,6.06
+1993,W92000004,Cooling Degree Days,2.08
+1994,W92000004,Cooling Degree Days,4.66
+1995,W92000004,Cooling Degree Days,37.3
+1996,W92000004,Cooling Degree Days,8.54
+1997,W92000004,Cooling Degree Days,12.67
+1998,W92000004,Cooling Degree Days,3.3
+1999,W92000004,Cooling Degree Days,11.35
+2000,W92000004,Cooling Degree Days,6.4
+2001,W92000004,Cooling Degree Days,9.04
+2002,W92000004,Cooling Degree Days,2.49
+2003,W92000004,Cooling Degree Days,20.59
+2004,W92000004,Cooling Degree Days,6.82
+2005,W92000004,Cooling Degree Days,11.26
+2006,W92000004,Cooling Degree Days,25.34
+2007,W92000004,Cooling Degree Days,2.24
+2008,W92000004,Cooling Degree Days,4.74
+2009,W92000004,Cooling Degree Days,6.95
+2010,W92000004,Cooling Degree Days,4.29
+2011,W92000004,Cooling Degree Days,5.05
+2012,W92000004,Cooling Degree Days,5.41
+2013,W92000004,Cooling Degree Days,15.07
+2014,W92000004,Cooling Degree Days,7.84
+2015,W92000004,Cooling Degree Days,3.18
+2016,W92000004,Cooling Degree Days,8.63
+2017,W92000004,Cooling Degree Days,10.73
+2018,W92000004,Cooling Degree Days,23.55
+2019,W92000004,Cooling Degree Days,10.29
+2020,W92000004,Cooling Degree Days,15.39
+2021,W92000004,Cooling Degree Days,15.91
+2022,W92000004,Cooling Degree Days,28.82
+1960,S92000003,Cooling Degree Days,2.58
+1961,S92000003,Cooling Degree Days,0.67
+1962,S92000003,Cooling Degree Days,0.26
+1963,S92000003,Cooling Degree Days,1.26
+1964,S92000003,Cooling Degree Days,0.29
+1965,S92000003,Cooling Degree Days,0.25
+1966,S92000003,Cooling Degree Days,0.54
+1967,S92000003,Cooling Degree Days,0.44
+1968,S92000003,Cooling Degree Days,1.01
+1969,S92000003,Cooling Degree Days,2.27
+1970,S92000003,Cooling Degree Days,3.68
+1971,S92000003,Cooling Degree Days,2.01
+1972,S92000003,Cooling Degree Days,2.48
+1973,S92000003,Cooling Degree Days,2.21
+1974,S92000003,Cooling Degree Days,0.23
+1975,S92000003,Cooling Degree Days,8.79
+1976,S92000003,Cooling Degree Days,12.15
+1977,S92000003,Cooling Degree Days,4.12
+1978,S92000003,Cooling Degree Days,2.2
+1979,S92000003,Cooling Degree Days,0.79
+1980,S92000003,Cooling Degree Days,1.18
+1981,S92000003,Cooling Degree Days,0.46
+1982,S92000003,Cooling Degree Days,5.6
+1983,S92000003,Cooling Degree Days,7.89
+1984,S92000003,Cooling Degree Days,5.53
+1985,S92000003,Cooling Degree Days,0.42
+1986,S92000003,Cooling Degree Days,3.54
+1987,S92000003,Cooling Degree Days,0.43
+1988,S92000003,Cooling Degree Days,0.99
+1989,S92000003,Cooling Degree Days,6.84
+1990,S92000003,Cooling Degree Days,3.49
+1991,S92000003,Cooling Degree Days,3.23
+1992,S92000003,Cooling Degree Days,1.8
+1993,S92000003,Cooling Degree Days,0.33
+1994,S92000003,Cooling Degree Days,0.98
+1995,S92000003,Cooling Degree Days,14.92
+1996,S92000003,Cooling Degree Days,1.55
+1997,S92000003,Cooling Degree Days,5.18
+1998,S92000003,Cooling Degree Days,0.78
+1999,S92000003,Cooling Degree Days,4.71
+2000,S92000003,Cooling Degree Days,1.19
+2001,S92000003,Cooling Degree Days,1.06
+2002,S92000003,Cooling Degree Days,0.9
+2003,S92000003,Cooling Degree Days,7.53
+2004,S92000003,Cooling Degree Days,1.48
+2005,S92000003,Cooling Degree Days,3.06
+2006,S92000003,Cooling Degree Days,7.83
+2007,S92000003,Cooling Degree Days,0.31
+2008,S92000003,Cooling Degree Days,1.73
+2009,S92000003,Cooling Degree Days,3.79
+2010,S92000003,Cooling Degree Days,0.77
+2011,S92000003,Cooling Degree Days,0.66
+2012,S92000003,Cooling Degree Days,2.58
+2013,S92000003,Cooling Degree Days,5.28
+2014,S92000003,Cooling Degree Days,3.66
+2015,S92000003,Cooling Degree Days,1.3
+2016,S92000003,Cooling Degree Days,2.37
+2017,S92000003,Cooling Degree Days,1.98
+2018,S92000003,Cooling Degree Days,8.01
+2019,S92000003,Cooling Degree Days,4.37
+2020,S92000003,Cooling Degree Days,3.31
+2021,S92000003,Cooling Degree Days,4.64
+2022,S92000003,Cooling Degree Days,5.95
+1960,N92000002,Cooling Degree Days,1.03
+1961,N92000002,Cooling Degree Days,0.33
+1962,N92000002,Cooling Degree Days,0.28
+1963,N92000002,Cooling Degree Days,1.84
+1964,N92000002,Cooling Degree Days,0.25
+1965,N92000002,Cooling Degree Days,0.1
+1966,N92000002,Cooling Degree Days,0.35
+1967,N92000002,Cooling Degree Days,0.21
+1968,N92000002,Cooling Degree Days,1.61
+1969,N92000002,Cooling Degree Days,2.31
+1970,N92000002,Cooling Degree Days,3.73
+1971,N92000002,Cooling Degree Days,1.18
+1972,N92000002,Cooling Degree Days,3.32
+1973,N92000002,Cooling Degree Days,2.77
+1974,N92000002,Cooling Degree Days,0.4
+1975,N92000002,Cooling Degree Days,7.89
+1976,N92000002,Cooling Degree Days,14.17
+1977,N92000002,Cooling Degree Days,4.8
+1978,N92000002,Cooling Degree Days,1.33
+1979,N92000002,Cooling Degree Days,0.56
+1980,N92000002,Cooling Degree Days,0.08
+1981,N92000002,Cooling Degree Days,0.48
+1982,N92000002,Cooling Degree Days,3.26
+1983,N92000002,Cooling Degree Days,12.9
+1984,N92000002,Cooling Degree Days,4.02
+1985,N92000002,Cooling Degree Days,0.32
+1986,N92000002,Cooling Degree Days,1.28
+1987,N92000002,Cooling Degree Days,0.58
+1988,N92000002,Cooling Degree Days,0.34
+1989,N92000002,Cooling Degree Days,11.14
+1990,N92000002,Cooling Degree Days,3.83
+1991,N92000002,Cooling Degree Days,4.25
+1992,N92000002,Cooling Degree Days,1.07
+1993,N92000002,Cooling Degree Days,0.31
+1994,N92000002,Cooling Degree Days,0.23
+1995,N92000002,Cooling Degree Days,20.75
+1996,N92000002,Cooling Degree Days,2.41
+1997,N92000002,Cooling Degree Days,5.37
+1998,N92000002,Cooling Degree Days,0.58
+1999,N92000002,Cooling Degree Days,4.05
+2000,N92000002,Cooling Degree Days,1.9
+2001,N92000002,Cooling Degree Days,1.28
+2002,N92000002,Cooling Degree Days,1.02
+2003,N92000002,Cooling Degree Days,6.26
+2004,N92000002,Cooling Degree Days,1.34
+2005,N92000002,Cooling Degree Days,3.59
+2006,N92000002,Cooling Degree Days,11.91
+2007,N92000002,Cooling Degree Days,1.56
+2008,N92000002,Cooling Degree Days,1.54
+2009,N92000002,Cooling Degree Days,2.86
+2010,N92000002,Cooling Degree Days,1.71
+2011,N92000002,Cooling Degree Days,0.7
+2012,N92000002,Cooling Degree Days,2.86
+2013,N92000002,Cooling Degree Days,10.37
+2014,N92000002,Cooling Degree Days,4.13
+2015,N92000002,Cooling Degree Days,0.71
+2016,N92000002,Cooling Degree Days,3.71
+2017,N92000002,Cooling Degree Days,2.74
+2018,N92000002,Cooling Degree Days,11.92
+2019,N92000002,Cooling Degree Days,2.46
+2020,N92000002,Cooling Degree Days,3.36
+2021,N92000002,Cooling Degree Days,12.02
+2022,N92000002,Cooling Degree Days,8.12
+1960,K02000001,Cooling Degree Day Trend,4.99
+1961,K02000001,Cooling Degree Day Trend,5.05
+1962,K02000001,Cooling Degree Day Trend,5.26
+1963,K02000001,Cooling Degree Day Trend,5.51
+1964,K02000001,Cooling Degree Day Trend,5.76
+1965,K02000001,Cooling Degree Day Trend,6.03
+1966,K02000001,Cooling Degree Day Trend,6.35
+1967,K02000001,Cooling Degree Day Trend,6.68
+1968,K02000001,Cooling Degree Day Trend,7.05
+1969,K02000001,Cooling Degree Day Trend,7.5
+1970,K02000001,Cooling Degree Day Trend,7.94
+1971,K02000001,Cooling Degree Day Trend,8.33
+1972,K02000001,Cooling Degree Day Trend,8.72
+1973,K02000001,Cooling Degree Day Trend,9.11
+1974,K02000001,Cooling Degree Day Trend,9.45
+1975,K02000001,Cooling Degree Day Trend,9.91
+1976,K02000001,Cooling Degree Day Trend,10.29
+1977,K02000001,Cooling Degree Day Trend,10.41
+1978,K02000001,Cooling Degree Day Trend,10.52
+1979,K02000001,Cooling Degree Day Trend,10.63
+1980,K02000001,Cooling Degree Day Trend,10.77
+1981,K02000001,Cooling Degree Day Trend,11.05
+1982,K02000001,Cooling Degree Day Trend,11.34
+1983,K02000001,Cooling Degree Day Trend,11.63
+1984,K02000001,Cooling Degree Day Trend,11.74
+1985,K02000001,Cooling Degree Day Trend,11.84
+1986,K02000001,Cooling Degree Day Trend,11.98
+1987,K02000001,Cooling Degree Day Trend,12.14
+1988,K02000001,Cooling Degree Day Trend,12.3
+1989,K02000001,Cooling Degree Day Trend,12.58
+1990,K02000001,Cooling Degree Day Trend,12.71
+1991,K02000001,Cooling Degree Day Trend,12.82
+1992,K02000001,Cooling Degree Day Trend,13.13
+1993,K02000001,Cooling Degree Day Trend,13.41
+1994,K02000001,Cooling Degree Day Trend,13.7
+1995,K02000001,Cooling Degree Day Trend,13.96
+1996,K02000001,Cooling Degree Day Trend,13.95
+1997,K02000001,Cooling Degree Day Trend,13.9
+1998,K02000001,Cooling Degree Day Trend,13.78
+1999,K02000001,Cooling Degree Day Trend,13.81
+2000,K02000001,Cooling Degree Day Trend,13.81
+2001,K02000001,Cooling Degree Day Trend,13.79
+2002,K02000001,Cooling Degree Day Trend,13.76
+2003,K02000001,Cooling Degree Day Trend,13.74
+2004,K02000001,Cooling Degree Day Trend,13.64
+2005,K02000001,Cooling Degree Day Trend,13.63
+2006,K02000001,Cooling Degree Day Trend,13.68
+2007,K02000001,Cooling Degree Day Trend,13.58
+2008,K02000001,Cooling Degree Day Trend,13.63
+2009,K02000001,Cooling Degree Day Trend,13.79
+2010,K02000001,Cooling Degree Day Trend,13.98
+2011,K02000001,Cooling Degree Day Trend,14.34
+2012,K02000001,Cooling Degree Day Trend,14.75
+2013,K02000001,Cooling Degree Day Trend,15.29
+2014,K02000001,Cooling Degree Day Trend,15.75
+2015,K02000001,Cooling Degree Day Trend,16.24
+2016,K02000001,Cooling Degree Day Trend,16.73
+2017,K02000001,Cooling Degree Day Trend,17.2
+2018,K02000001,Cooling Degree Day Trend,17.68
+2019,K02000001,Cooling Degree Day Trend,18.04
+2020,K02000001,Cooling Degree Day Trend,18.33
+2021,K02000001,Cooling Degree Day Trend,18.54
+2022,K02000001,Cooling Degree Day Trend,18.79
+1960,E92000001,Cooling Degree Day Trend,7.93
+1961,E92000001,Cooling Degree Day Trend,8.02
+1962,E92000001,Cooling Degree Day Trend,8.34
+1963,E92000001,Cooling Degree Day Trend,8.68
+1964,E92000001,Cooling Degree Day Trend,9.04
+1965,E92000001,Cooling Degree Day Trend,9.41
+1966,E92000001,Cooling Degree Day Trend,9.86
+1967,E92000001,Cooling Degree Day Trend,10.33
+1968,E92000001,Cooling Degree Day Trend,10.85
+1969,E92000001,Cooling Degree Day Trend,11.49
+1970,E92000001,Cooling Degree Day Trend,12.1
+1971,E92000001,Cooling Degree Day Trend,12.64
+1972,E92000001,Cooling Degree Day Trend,13.17
+1973,E92000001,Cooling Degree Day Trend,13.73
+1974,E92000001,Cooling Degree Day Trend,14.21
+1975,E92000001,Cooling Degree Day Trend,14.87
+1976,E92000001,Cooling Degree Day Trend,15.42
+1977,E92000001,Cooling Degree Day Trend,15.6
+1978,E92000001,Cooling Degree Day Trend,15.78
+1979,E92000001,Cooling Degree Day Trend,15.97
+1980,E92000001,Cooling Degree Day Trend,16.21
+1981,E92000001,Cooling Degree Day Trend,16.65
+1982,E92000001,Cooling Degree Day Trend,17.1
+1983,E92000001,Cooling Degree Day Trend,17.57
+1984,E92000001,Cooling Degree Day Trend,17.79
+1985,E92000001,Cooling Degree Day Trend,18.0
+1986,E92000001,Cooling Degree Day Trend,18.28
+1987,E92000001,Cooling Degree Day Trend,18.6
+1988,E92000001,Cooling Degree Day Trend,18.91
+1989,E92000001,Cooling Degree Day Trend,19.42
+1990,E92000001,Cooling Degree Day Trend,19.7
+1991,E92000001,Cooling Degree Day Trend,19.93
+1992,E92000001,Cooling Degree Day Trend,20.45
+1993,E92000001,Cooling Degree Day Trend,20.92
+1994,E92000001,Cooling Degree Day Trend,21.4
+1995,E92000001,Cooling Degree Day Trend,21.82
+1996,E92000001,Cooling Degree Day Trend,21.87
+1997,E92000001,Cooling Degree Day Trend,21.86
+1998,E92000001,Cooling Degree Day Trend,21.74
+1999,E92000001,Cooling Degree Day Trend,21.82
+2000,E92000001,Cooling Degree Day Trend,21.86
+2001,E92000001,Cooling Degree Day Trend,21.86
+2002,E92000001,Cooling Degree Day Trend,21.83
+2003,E92000001,Cooling Degree Day Trend,21.81
+2004,E92000001,Cooling Degree Day Trend,21.69
+2005,E92000001,Cooling Degree Day Trend,21.68
+2006,E92000001,Cooling Degree Day Trend,21.77
+2007,E92000001,Cooling Degree Day Trend,21.62
+2008,E92000001,Cooling Degree Day Trend,21.72
+2009,E92000001,Cooling Degree Day Trend,21.99
+2010,E92000001,Cooling Degree Day Trend,22.31
+2011,E92000001,Cooling Degree Day Trend,22.86
+2012,E92000001,Cooling Degree Day Trend,23.49
+2013,E92000001,Cooling Degree Day Trend,24.34
+2014,E92000001,Cooling Degree Day Trend,25.05
+2015,E92000001,Cooling Degree Day Trend,25.82
+2016,E92000001,Cooling Degree Day Trend,26.59
+2017,E92000001,Cooling Degree Day Trend,27.33
+2018,E92000001,Cooling Degree Day Trend,28.08
+2019,E92000001,Cooling Degree Day Trend,28.64
+2020,E92000001,Cooling Degree Day Trend,29.09
+2021,E92000001,Cooling Degree Day Trend,29.42
+2022,E92000001,Cooling Degree Day Trend,29.82
+1960,W92000004,Cooling Degree Day Trend,3.71
+1961,W92000004,Cooling Degree Day Trend,3.75
+1962,W92000004,Cooling Degree Day Trend,3.94
+1963,W92000004,Cooling Degree Day Trend,4.18
+1964,W92000004,Cooling Degree Day Trend,4.4
+1965,W92000004,Cooling Degree Day Trend,4.65
+1966,W92000004,Cooling Degree Day Trend,4.93
+1967,W92000004,Cooling Degree Day Trend,5.23
+1968,W92000004,Cooling Degree Day Trend,5.55
+1969,W92000004,Cooling Degree Day Trend,5.98
+1970,W92000004,Cooling Degree Day Trend,6.42
+1971,W92000004,Cooling Degree Day Trend,6.82
+1972,W92000004,Cooling Degree Day Trend,7.21
+1973,W92000004,Cooling Degree Day Trend,7.6
+1974,W92000004,Cooling Degree Day Trend,7.95
+1975,W92000004,Cooling Degree Day Trend,8.41
+1976,W92000004,Cooling Degree Day Trend,8.82
+1977,W92000004,Cooling Degree Day Trend,8.94
+1978,W92000004,Cooling Degree Day Trend,9.04
+1979,W92000004,Cooling Degree Day Trend,9.15
+1980,W92000004,Cooling Degree Day Trend,9.26
+1981,W92000004,Cooling Degree Day Trend,9.51
+1982,W92000004,Cooling Degree Day Trend,9.78
+1983,W92000004,Cooling Degree Day Trend,10.03
+1984,W92000004,Cooling Degree Day Trend,10.08
+1985,W92000004,Cooling Degree Day Trend,10.06
+1986,W92000004,Cooling Degree Day Trend,10.09
+1987,W92000004,Cooling Degree Day Trend,10.13
+1988,W92000004,Cooling Degree Day Trend,10.16
+1989,W92000004,Cooling Degree Day Trend,10.28
+1990,W92000004,Cooling Degree Day Trend,10.27
+1991,W92000004,Cooling Degree Day Trend,10.2
+1992,W92000004,Cooling Degree Day Trend,10.36
+1993,W92000004,Cooling Degree Day Trend,10.49
+1994,W92000004,Cooling Degree Day Trend,10.65
+1995,W92000004,Cooling Degree Day Trend,10.81
+1996,W92000004,Cooling Degree Day Trend,10.66
+1997,W92000004,Cooling Degree Day Trend,10.48
+1998,W92000004,Cooling Degree Day Trend,10.26
+1999,W92000004,Cooling Degree Day Trend,10.18
+2000,W92000004,Cooling Degree Day Trend,10.11
+2001,W92000004,Cooling Degree Day Trend,10.01
+2002,W92000004,Cooling Degree Day Trend,9.9
+2003,W92000004,Cooling Degree Day Trend,9.82
+2004,W92000004,Cooling Degree Day Trend,9.69
+2005,W92000004,Cooling Degree Day Trend,9.63
+2006,W92000004,Cooling Degree Day Trend,9.62
+2007,W92000004,Cooling Degree Day Trend,9.49
+2008,W92000004,Cooling Degree Day Trend,9.5
+2009,W92000004,Cooling Degree Day Trend,9.61
+2010,W92000004,Cooling Degree Day Trend,9.74
+2011,W92000004,Cooling Degree Day Trend,10.07
+2012,W92000004,Cooling Degree Day Trend,10.43
+2013,W92000004,Cooling Degree Day Trend,10.91
+2014,W92000004,Cooling Degree Day Trend,11.32
+2015,W92000004,Cooling Degree Day Trend,11.75
+2016,W92000004,Cooling Degree Day Trend,12.19
+2017,W92000004,Cooling Degree Day Trend,12.63
+2018,W92000004,Cooling Degree Day Trend,13.06
+2019,W92000004,Cooling Degree Day Trend,13.39
+2020,W92000004,Cooling Degree Day Trend,13.68
+2021,W92000004,Cooling Degree Day Trend,13.9
+2022,W92000004,Cooling Degree Day Trend,14.13
+1960,S92000003,Cooling Degree Day Trend,1.15
+1961,S92000003,Cooling Degree Day Trend,1.17
+1962,S92000003,Cooling Degree Day Trend,1.25
+1963,S92000003,Cooling Degree Day Trend,1.35
+1964,S92000003,Cooling Degree Day Trend,1.46
+1965,S92000003,Cooling Degree Day Trend,1.58
+1966,S92000003,Cooling Degree Day Trend,1.72
+1967,S92000003,Cooling Degree Day Trend,1.87
+1968,S92000003,Cooling Degree Day Trend,2.03
+1969,S92000003,Cooling Degree Day Trend,2.22
+1970,S92000003,Cooling Degree Day Trend,2.42
+1971,S92000003,Cooling Degree Day Trend,2.59
+1972,S92000003,Cooling Degree Day Trend,2.76
+1973,S92000003,Cooling Degree Day Trend,2.92
+1974,S92000003,Cooling Degree Day Trend,3.06
+1975,S92000003,Cooling Degree Day Trend,3.24
+1976,S92000003,Cooling Degree Day Trend,3.37
+1977,S92000003,Cooling Degree Day Trend,3.41
+1978,S92000003,Cooling Degree Day Trend,3.42
+1979,S92000003,Cooling Degree Day Trend,3.42
+1980,S92000003,Cooling Degree Day Trend,3.42
+1981,S92000003,Cooling Degree Day Trend,3.47
+1982,S92000003,Cooling Degree Day Trend,3.53
+1983,S92000003,Cooling Degree Day Trend,3.57
+1984,S92000003,Cooling Degree Day Trend,3.54
+1985,S92000003,Cooling Degree Day Trend,3.5
+1986,S92000003,Cooling Degree Day Trend,3.47
+1987,S92000003,Cooling Degree Day Trend,3.43
+1988,S92000003,Cooling Degree Day Trend,3.39
+1989,S92000003,Cooling Degree Day Trend,3.39
+1990,S92000003,Cooling Degree Day Trend,3.34
+1991,S92000003,Cooling Degree Day Trend,3.31
+1992,S92000003,Cooling Degree Day Trend,3.34
+1993,S92000003,Cooling Degree Day Trend,3.37
+1994,S92000003,Cooling Degree Day Trend,3.42
+1995,S92000003,Cooling Degree Day Trend,3.48
+1996,S92000003,Cooling Degree Day Trend,3.41
+1997,S92000003,Cooling Degree Day Trend,3.34
+1998,S92000003,Cooling Degree Day Trend,3.26
+1999,S92000003,Cooling Degree Day Trend,3.23
+2000,S92000003,Cooling Degree Day Trend,3.19
+2001,S92000003,Cooling Degree Day Trend,3.16
+2002,S92000003,Cooling Degree Day Trend,3.14
+2003,S92000003,Cooling Degree Day Trend,3.12
+2004,S92000003,Cooling Degree Day Trend,3.08
+2005,S92000003,Cooling Degree Day Trend,3.07
+2006,S92000003,Cooling Degree Day Trend,3.07
+2007,S92000003,Cooling Degree Day Trend,3.03
+2008,S92000003,Cooling Degree Day Trend,3.02
+2009,S92000003,Cooling Degree Day Trend,3.03
+2010,S92000003,Cooling Degree Day Trend,3.03
+2011,S92000003,Cooling Degree Day Trend,3.1
+2012,S92000003,Cooling Degree Day Trend,3.19
+2013,S92000003,Cooling Degree Day Trend,3.32
+2014,S92000003,Cooling Degree Day Trend,3.41
+2015,S92000003,Cooling Degree Day Trend,3.51
+2016,S92000003,Cooling Degree Day Trend,3.6
+2017,S92000003,Cooling Degree Day Trend,3.69
+2018,S92000003,Cooling Degree Day Trend,3.79
+2019,S92000003,Cooling Degree Day Trend,3.87
+2020,S92000003,Cooling Degree Day Trend,3.91
+2021,S92000003,Cooling Degree Day Trend,3.94
+2022,S92000003,Cooling Degree Day Trend,3.99
+1960,N92000002,Cooling Degree Day Trend,0.97
+1961,N92000002,Cooling Degree Day Trend,1.0
+1962,N92000002,Cooling Degree Day Trend,1.1
+1963,N92000002,Cooling Degree Day Trend,1.23
+1964,N92000002,Cooling Degree Day Trend,1.36
+1965,N92000002,Cooling Degree Day Trend,1.5
+1966,N92000002,Cooling Degree Day Trend,1.66
+1967,N92000002,Cooling Degree Day Trend,1.82
+1968,N92000002,Cooling Degree Day Trend,1.99
+1969,N92000002,Cooling Degree Day Trend,2.21
+1970,N92000002,Cooling Degree Day Trend,2.43
+1971,N92000002,Cooling Degree Day Trend,2.62
+1972,N92000002,Cooling Degree Day Trend,2.81
+1973,N92000002,Cooling Degree Day Trend,2.97
+1974,N92000002,Cooling Degree Day Trend,3.11
+1975,N92000002,Cooling Degree Day Trend,3.31
+1976,N92000002,Cooling Degree Day Trend,3.45
+1977,N92000002,Cooling Degree Day Trend,3.49
+1978,N92000002,Cooling Degree Day Trend,3.49
+1979,N92000002,Cooling Degree Day Trend,3.49
+1980,N92000002,Cooling Degree Day Trend,3.49
+1981,N92000002,Cooling Degree Day Trend,3.58
+1982,N92000002,Cooling Degree Day Trend,3.68
+1983,N92000002,Cooling Degree Day Trend,3.77
+1984,N92000002,Cooling Degree Day Trend,3.76
+1985,N92000002,Cooling Degree Day Trend,3.74
+1986,N92000002,Cooling Degree Day Trend,3.74
+1987,N92000002,Cooling Degree Day Trend,3.74
+1988,N92000002,Cooling Degree Day Trend,3.76
+1989,N92000002,Cooling Degree Day Trend,3.81
+1990,N92000002,Cooling Degree Day Trend,3.77
+1991,N92000002,Cooling Degree Day Trend,3.75
+1992,N92000002,Cooling Degree Day Trend,3.81
+1993,N92000002,Cooling Degree Day Trend,3.89
+1994,N92000002,Cooling Degree Day Trend,3.97
+1995,N92000002,Cooling Degree Day Trend,4.07
+1996,N92000002,Cooling Degree Day Trend,4.0
+1997,N92000002,Cooling Degree Day Trend,3.9
+1998,N92000002,Cooling Degree Day Trend,3.79
+1999,N92000002,Cooling Degree Day Trend,3.77
+2000,N92000002,Cooling Degree Day Trend,3.76
+2001,N92000002,Cooling Degree Day Trend,3.73
+2002,N92000002,Cooling Degree Day Trend,3.71
+2003,N92000002,Cooling Degree Day Trend,3.7
+2004,N92000002,Cooling Degree Day Trend,3.69
+2005,N92000002,Cooling Degree Day Trend,3.72
+2006,N92000002,Cooling Degree Day Trend,3.76
+2007,N92000002,Cooling Degree Day Trend,3.76
+2008,N92000002,Cooling Degree Day Trend,3.79
+2009,N92000002,Cooling Degree Day Trend,3.85
+2010,N92000002,Cooling Degree Day Trend,3.93
+2011,N92000002,Cooling Degree Day Trend,4.1
+2012,N92000002,Cooling Degree Day Trend,4.29
+2013,N92000002,Cooling Degree Day Trend,4.53
+2014,N92000002,Cooling Degree Day Trend,4.7
+2015,N92000002,Cooling Degree Day Trend,4.86
+2016,N92000002,Cooling Degree Day Trend,5.03
+2017,N92000002,Cooling Degree Day Trend,5.18
+2018,N92000002,Cooling Degree Day Trend,5.37
+2019,N92000002,Cooling Degree Day Trend,5.49
+2020,N92000002,Cooling Degree Day Trend,5.59
+2021,N92000002,Cooling Degree Day Trend,5.69
+2022,N92000002,Cooling Degree Day Trend,5.75

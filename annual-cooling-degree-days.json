@@ -1,0 +1,47 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Annual Cooling Degree Days for each UK country geography code",
+    "summary": "Climate observations that have been averaged across each UK country for each year",
+    "description": "Derived from https://catalogue.ceda.ac.uk/uuid/4dc8450d889a491ebb20e724debe2dfb",
+    "dataset_version": "v1.2.0.0",
+    "publisher": "https://www.gov.uk/government/organisations/met-office",
+    "creator": "https://www.gov.uk/government/organisations/met-office",
+    "themes": "http://gss-data.org.uk/def/gdp#climate-change",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "climate",
+        "temperature"
+    ],
+    "columns": {
+        "Year": {
+            "from_template": "year"
+        },
+        "Geography": {
+            "type": "dimension",
+            "from_template": "statistical-geography"
+        },
+        "Measure": {
+            "type": "measures",
+            "values": [
+                {
+                    "label": "Cooling Degree Days",
+                    "description": "The annual sum of the number of degrees the daily mean temperature is above 22C each day",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#temperature"
+                },
+                {
+                    "label": "Cooling Degree Days Trend",
+                    "description": "Climatological trend calculated using triangular window method for each geographical area",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#temperature"
+                }
+            ]
+        },
+        "Value": {
+            "type": "observations",
+            "data_type": "decimal",
+            "unit": {
+                "label": "Degrees Celsius",
+                "from_existing": "http://qudt.org/vocab/unit/DEG_C"
+            }
+        }
+    }
+}
